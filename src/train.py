@@ -14,7 +14,7 @@ from torch.utils.tensorboard import SummaryWriter
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, explained_variance_score
 from math import sqrt
 from scipy.stats import pearsonr
-import pandas as pd  # For handling date ranges
+import pandas as pd  # For handling date ranges and saving CSV files
 
 # Add parent directory to path (if needed)
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -412,6 +412,33 @@ test_loss, mae, std_mae, rmse, rmse_states, pcc, pcc_states, mape, r2, r2_states
 print('Final evaluation')
 print('TEST MAE {:5.4f} std {:5.4f} RMSE {:5.4f} RMSEs {:5.4f} PCC {:5.4f} PCCs {:5.4f} MAPE {:5.4f} R2 {:5.4f} R2s {:5.4f} Var {:5.4f} Vars {:5.4f} Peak {:5.4f}'.format(
     mae, std_mae, rmse, rmse_states, pcc, pcc_states, mape, r2, r2_states, var, var_states, peak_mae))
+
+# Save final evaluation metrics to a CSV file so that you don't have to retrain every time
+results_dir = os.path.join(parent_dir, "results")
+if not os.path.exists(results_dir):
+    os.makedirs(results_dir)
+
+# Prepare a dictionary with the desired metrics
+final_metrics = {
+    "MAE": [mae],
+    "std_MAE": [std_mae],
+    "RMSE": [rmse],
+    "RMSEs": [rmse_states],
+    "PCC": [pcc],
+    "PCCs": [pcc_states],
+    "MAPE": [mape],
+    "R2": [r2],
+    "R2s": [r2_states],
+    "Var": [var],
+    "Vars": [var_states],
+    "Peak": [peak_mae]
+}
+
+# Create a DataFrame and save it as a CSV file
+metrics_df = pd.DataFrame(final_metrics)
+metrics_csv = os.path.join(results_dir, f"final_metrics_{log_token}.csv")
+metrics_df.to_csv(metrics_csv, index=False)
+logger.info("Saved final evaluation metrics to %s", metrics_csv)
 
 if args.record != '':
     with open("result/result.txt", "a", encoding="utf-8") as f:

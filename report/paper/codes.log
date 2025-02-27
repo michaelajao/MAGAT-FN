@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  27 FEB 2025 04:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  27 FEB 2025 05:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -760,6 +760,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 49.
+ (codes.out) (codes.out)
 \@outlinefile=\write4
 \openout4 = `codes.out'.
 
@@ -788,13 +789,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 
 
-LaTeX Warning: Citation `compartmentalmodel' on page 1 undefined on input line 64.
-
-
-LaTeX Warning: Citation `gnn_survey' on page 1 undefined on input line 64.
-
-
-LaTeX Warning: Citation `attention_mechanisms' on page 1 undefined on input line 64.
+LaTeX Warning: Citation `compartmental_model' on page 1 undefined on input line 64.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
@@ -817,22 +812,10 @@ Underfull \hbox (badness 2591) in paragraph at lines 90--91
 
 ]
 
-LaTeX Warning: Citation `compartmentalmodel' on page 2 undefined on input line 97.
-
-
-LaTeX Warning: Citation `sirbasedmodel' on page 2 undefined on input line 97.
-
-
 LaTeX Warning: Citation `lstm' on page 2 undefined on input line 99.
 
 
-LaTeX Warning: Citation `gnn_survey' on page 2 undefined on input line 101.
-
-
 LaTeX Warning: Citation `gcn' on page 2 undefined on input line 101.
-
-
-LaTeX Warning: Citation `attention_mechanisms' on page 2 undefined on input line 101.
 
 
 LaTeX Warning: Citation `gat' on page 2 undefined on input line 101.
@@ -842,12 +825,6 @@ LaTeX Warning: Citation `stgcn' on page 2 undefined on input line 103.
 
 
 LaTeX Warning: Citation `dcrnn' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Citation `cola_gnn' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Citation `saiflu_net' on page 2 undefined on input line 103.
 
 
 LaTeX Warning: Citation `astgcn' on page 2 undefined on input line 105.
@@ -870,14 +847,6 @@ Underfull \hbox (badness 5345) in paragraph at lines 121--122
 []\T1/ptm/m/n/10 A Pro-gres-sive Pre-dic-tion and Re-fine-ment Mod-ule
  []
 
-c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex:172: Missing $ inserted.
-<inserted text> 
-                $
-l.172 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 
 
 [2]
@@ -895,17 +864,17 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 39
 (C:\Users\ajaoo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<../figures/forecast_japan.w-20.h-5.png, id=66, 722.7pt x 433.62pt>
+<../figures/forecast_japan.w-20.h-5.png, id=243, 722.7pt x 433.62pt>
 File: ../figures/forecast_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/forecast_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/forecast_japan.w-20.h-5.png  used on input line 412.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
-<../figures/matrices_japan.w-20.h-5.png, id=68, 1084.05pt x 361.35pt>
+<../figures/matrices_japan.w-20.h-5.png, id=245, 1084.05pt x 361.35pt>
 File: ../figures/matrices_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/matrices_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/matrices_japan.w-20.h-5.png  used on input line 419.
 (pdftex.def)             Requested size: 252.0pt x 83.99646pt.
-<../figures/loss_curve_japan.w-20.h-5.png, id=69, 578.16pt x 361.35pt>
+<../figures/loss_curve_japan.w-20.h-5.png, id=246, 578.16pt x 361.35pt>
 File: ../figures/loss_curve_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/loss_curve_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/loss_curve_japan.w-20.h-5.png  used on input line 426.
@@ -913,16 +882,6 @@ Package pdftex.def Info: ../figures/loss_curve_japan.w-20.h-5.png  used on input
 
 
 [4 <../figures/forecast_japan.w-20.h-5.png> <../figures/matrices_japan.w-20.h-5.png>]
-
-LaTeX Warning: Reference `fig:attention_vis' on page 5 undefined on input line 541.
-
-
-LaTeX Warning: Reference `fig:forecast_japan' on page 5 undefined on input line 550.
-
-
-LaTeX Warning: Reference `fig:training_curves' on page 5 undefined on input line 559.
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 595--596
@@ -965,30 +924,21 @@ L3 programming layer <2024-11-02>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `codes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `codes.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  C365EC8CC5FBEEDB1DE1E4126F1CC0DD;9007.
+Package rerunfilecheck Info: File `codes.out' has not changed.
+(rerunfilecheck)             Checksum: 73738C15DA637FF89FEFECC0F503C43C;9102.
  ) 
 Here is how much of TeX's memory you used:
- 26265 strings out of 473682
- 511377 string characters out of 5719215
- 940153 words of memory out of 5000000
- 48805 multiletter control sequences out of 15000+600000
- 701388 words of font info for 211 fonts, out of 8000000 for 9000
+ 26331 strings out of 473682
+ 512689 string characters out of 5719215
+ 941194 words of memory out of 5000000
+ 48861 multiletter control sequences out of 15000+600000
+ 701738 words of font info for 210 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  84i,17n,93p,1381b,632s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on codes.pdf (7 pages, 694719 bytes).
+Output written on codes.pdf (7 pages, 717112 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 83 named destinations out of 1000 (max. 500000)
+ 388 words of extra memory for PDF output out of 10000 (max. 10000000)
 

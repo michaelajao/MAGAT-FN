@@ -61,7 +61,7 @@ Deep Learning, Graph Neural Networks, Multi-head Attention, Healthcare Time Seri
 
 % ---------- SECTION I: INTRODUCTION ----------
 \section{Introduction}
-\IEEEPARstart{E}{ffective} healthcare resource management during public health crises requires accurate and timely forecasts of spatiotemporal phenomena such as disease spread, hospital utilization, and resource demand. While traditional approaches like compartmental models~\cite{compartmentalmodel} provide valuable frameworks, they often struggle to capture complex spatiotemporal dependencies in real-world healthcare data. Recent deep learning approaches, particularly Graph Neural Networks (GNNs)~\cite{gnn_survey} and attention mechanisms~\cite{attention_mechanisms}, have shown promise but face several key limitations in practical healthcare applications.
+\IEEEPARstart{E}{ffective} healthcare resource management during public health crises requires accurate and timely forecasts of spatiotemporal phenomena such as disease spread, hospital utilization, and resource demand. While traditional approaches like compartmental models~\cite{compartmental_model} provide valuable frameworks, they often struggle to capture complex spatiotemporal dependencies in real-world healthcare data. Recent deep learning approaches, particularly Graph Neural Networks (GNNs)~\cite{gnn_survey} and attention mechanisms~\cite{attention_mechanisms}, have shown promise but face several key limitations in practical healthcare applications.
 
 Current challenges in spatiotemporal forecasting for healthcare include:
 
@@ -127,7 +127,7 @@ MAGAT-FN is designed to address three key challenges in spatiotemporal forecasti
 The initial processing pipeline transforms raw time series data into feature representations suitable for spatiotemporal learning:
 
 \begin{equation}
-\mathbf{X}_{norm} = \frac{\mathbf{X} - \mu}{\sigma + \epsilon}
+\mathbf{X}_{\text{norm}} = \frac{\mathbf{X} - \mu}{\sigma + \epsilon}
 \end{equation}
 
 where $\mathbf{X} \in \mathbb{R}^{B \times T \times N}$ represents the input time series, $\mu$ and $\sigma$ are the mean and standard deviation computed across the temporal dimension, and $\epsilon = 10^{-8}$ ensures numerical stability.
@@ -135,7 +135,7 @@ where $\mathbf{X} \in \mathbb{R}^{B \times T \times N}$ represents the input tim
 The normalized data is then processed through a lightweight temporal convolution network:
 
 \begin{equation}
-\mathbf{F}_{temp} = \text{ReLU}(\text{BN}(\text{Conv1D}(\mathbf{X}_{norm})))
+\mathbf{F}_{\text{temp}} = \text{ReLU}(\text{BN}(\text{Conv1D}(\mathbf{X}_{\text{norm}})))
 \end{equation}
 
 with kernel size $k=3$, output channels $c=32$, and batch normalization for stable training.
@@ -144,13 +144,13 @@ with kernel size $k=3$, output channels $c=32$, and batch normalization for stab
 The AGAM extends traditional graph attention networks with learnable adjacency biases and regularization:
 
 \begin{equation}
-\mathbf{A}_{dyn} = \text{softmax}\left(\frac{\mathbf{Q}\mathbf{K}^T}{\sqrt{d}} + \mathbf{B}_{adj}\right)
+\mathbf{A}_{\text{dyn}} = \text{softmax}\left(\frac{\mathbf{Q}\mathbf{K}^T}{\sqrt{d}} + \mathbf{B}_{\text{adj}}\right)
 \end{equation}
 
-where $\mathbf{B}_{adj} \in \mathbb{R}^{h \times N \times N}$ are learnable bias matrices for each attention head $h$. The attention scores are computed using scaled dot-product attention with an additional L1 regularization term:
+where $\mathbf{B}_{\text{adj}} \in \mathbb{R}^{h \times N \times N}$ are learnable bias matrices for each attention head $h$. The attention scores are computed using scaled dot-product attention with an additional L1 regularization term:
 
 \begin{equation}
-\mathcal{L}_{attn} = \lambda_{attn}\|\mathbf{A}_{dyn}\|_1 + \mathcal{L}_{pred}
+\mathcal{L}_{\text{attn}} = \lambda_{\text{attn}}\|\mathbf{A}_{\text{dyn}}\|_1 + \mathcal{L}_{\text{pred}}
 \end{equation}
 
 This encourages sparse, interpretable spatial relationships while maintaining flexibility to adapt to changing patterns.
@@ -165,23 +165,23 @@ The MTFM captures temporal dependencies at multiple scales through parallel dila
 where $d_i$ is the dilation rate for the $i$-th scale. The features are fused using learnable weights:
 
 \begin{equation}
-\mathbf{F}_{fused} = \sum_{i=0}^{n_{scales}-1} \alpha_i \mathbf{F}_i, \quad \boldsymbol{\alpha} = \text{softmax}(\mathbf{w})
+\mathbf{F}_{\text{fused}} = \sum_{i=0}^{n_{\text{scales}}-1} \alpha_i \mathbf{F}_i, \quad \boldsymbol{\alpha} = \text{softmax}(\mathbf{w})
 \end{equation}
 
-where $\mathbf{w} \in \mathbb{R}^{n_{scales}} are learnable parameters optimized end-to-end.
+where $\mathbf{w} \in \mathbb{R}^{n_{\text{scales}}}$ are learnable parameters optimized end-to-end.
 
 \subsubsection{Progressive Prediction and Refinement Module (PPRM)}
 The PPRM employs a novel gating mechanism to blend historical observations with model predictions:
 
 \begin{equation}
-\mathbf{G} = \sigma(\text{MLP}_g(\mathbf{F}_{fused}))
+\mathbf{G} = \sigma(\text{MLP}_g(\mathbf{F}_{\text{fused}}))
 \end{equation}
 
 \begin{equation}
-\hat{\mathbf{Y}} = \mathbf{G} \odot \mathbf{X}_{last} + (1 - \mathbf{G}) \odot \text{MLP}_p(\mathbf{F}_{fused})
+\hat{\mathbf{Y}} = \mathbf{G} \odot \mathbf{X}_{\text{last}} + (1 - \mathbf{G}) \odot \text{MLP}_p(\mathbf{F}_{\text{fused}})
 \end{equation}
 
-where $\text{MLP}_g$ and $\text{MLP}_p$ are separate networks for gate and prediction generation, and $\mathbf{X}_{last}$ represents the most recent observations.
+where $\text{MLP}_g$ and $\text{MLP}_p$ are separate networks for gate and prediction generation, and $\mathbf{X}_{\text{last}}$ represents the most recent observations.
 
 \subsection{Model Innovation and Technical Contributions}
 Our MAGAT-FN architecture introduces several key technical innovations:
@@ -190,19 +190,19 @@ Our MAGAT-FN architecture introduces several key technical innovations:
 The AGAM component extends traditional graph attention mechanisms in three ways:
 
 \begin{itemize}
-    \item \textbf{Learnable Adjacency Biases:} Unlike standard GAT layers that rely purely on attention scores, we introduce $\mathbf{B}_{adj}$ as learnable bias matrices that can capture persistent spatial relationships:
+    \item \textbf{Learnable Adjacency Biases:} Unlike standard GAT layers that rely purely on attention scores, we introduce $\mathbf{B}_{\text{adj}}$ as learnable bias matrices that can capture persistent spatial relationships:
     \begin{equation}
-    \mathbf{A}_{static} = \text{softmax}(\mathbf{B}_{adj})
+    \mathbf{A}_{\text{static}} = \text{softmax}(\mathbf{B}_{\text{adj}})
     \end{equation}
     
     \item \textbf{Multi-Head Attention Regularization:} We propose a novel L1 regularization term specific to each attention head:
     \begin{equation}
-    \mathcal{L}_{head} = \lambda_{h}\|\mathbf{A}_{h} - \mathbf{A}_{static}\|_1
+    \mathcal{L}_{\text{head}} = \lambda_{h}\|\mathbf{A}_{h} - \mathbf{A}_{\text{static}}\|_1
     \end{equation}
     
     \item \textbf{Dynamic Head Fusion:} Instead of simple averaging, we employ learnable fusion weights:
     \begin{equation}
-    \mathbf{A}_{final} = \sum_{h=1}^H \beta_h \mathbf{A}_h, \quad \boldsymbol{\beta} = \text{softmax}(\mathbf{v})
+    \mathbf{A}_{\text{final}} = \sum_{h=1}^H \beta_h \mathbf{A}_h, \quad \boldsymbol{\beta} = \text{softmax}(\mathbf{v})
     \end{equation}
 \end{itemize}
 
@@ -232,7 +232,7 @@ The PPRM introduces novel elements for stable multi-step prediction:
 \begin{itemize}
     \item \textbf{Adaptive Historical Blending:} Context-dependent mixing:
     \begin{equation}
-    \gamma_t = \text{MLP}_{\gamma}([\mathbf{F}_t, \mathbf{X}_{last}])
+    \gamma_t = \text{MLP}_{\gamma}([\mathbf{F}_t, \mathbf{X}_{\text{last}}])
     \end{equation}
     
     \item \textbf{Uncertainty-Aware Gating:} Confidence-based predictions:
@@ -242,7 +242,7 @@ The PPRM introduces novel elements for stable multi-step prediction:
     
     \item \textbf{Recursive Refinement:} Iterative prediction improvement:
     \begin{equation}
-    \hat{\mathbf{Y}}^{(k)} = \text{RefineNet}(\hat{\mathbf{Y}}^{(k-1)}, \mathbf{F}, \mathbf{X}_{last})
+    \hat{\mathbf{Y}}^{(k)} = \text{RefineNet}(\hat{\mathbf{Y}}^{(k-1)}, \mathbf{F}, \mathbf{X}_{\text{last}})
     \end{equation}
 \end{itemize}
 
@@ -250,14 +250,14 @@ The PPRM introduces novel elements for stable multi-step prediction:
 The model is trained end-to-end using a combination of prediction and regularization losses:
 
 \begin{equation}
-\mathcal{L}_{total} = \mathcal{L}_{pred} + \lambda_{attn}\mathcal{L}_{attn} + \lambda_{l2}\|\Theta\|_2
+\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{pred}} + \lambda_{\text{attn}}\mathcal{L}_{\text{attn}} + \lambda_{\text{l2}}\|\Theta\|_2
 \end{equation}
 
 where:
 \begin{itemize}
-    \item $\mathcal{L}_{pred}$ is the mean squared error between predictions and ground truth
-    \item $\mathcal{L}_{attn}$ is the attention regularization term
-    \item $\lambda_{attn} = 10^{-4}$ and $\lambda_{l2} = 5 \times 10^{-4}$ are hyperparameters
+    \item $\mathcal{L}_{\text{pred}}$ is the mean squared error between predictions and ground truth
+    \item $\mathcal{L}_{\text{attn}}$ is the attention regularization term
+    \item $\lambda_{\text{attn}} = 10^{-4}$ and $\lambda_{\text{l2}} = 5 \times 10^{-4}$ are hyperparameters
 \end{itemize}
 
 We employ the AdamW optimizer with learning rate $1 \times 10^{-4}$ and implement early stopping with patience of 20 epochs to prevent overfitting.

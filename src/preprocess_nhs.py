@@ -131,8 +131,11 @@ def compute_geographic_adjacency(regions: list,
 # ==============================================================================
 def main():
     logging.basicConfig(level=logging.INFO)
-    # Path to your raw merged NHS COVID CSV data
-    input_csv = os.path.join("data", "merged_nhs_covid_data.csv")
+    
+    # Construct paths relative to this script's directory
+    base_dir = os.path.join(os.path.dirname(__file__), "..")
+    input_csv = os.path.join(base_dir, "data", "merged_nhs_covid_data.csv")
+    
     if not os.path.exists(input_csv):
         logging.error(f"Input CSV file not found: {input_csv}")
         return
@@ -150,21 +153,23 @@ def main():
     logging.info("Pivot table for target variable created.")
 
     # Save the time-series matrix as a txt file (without headers or index)
-    output_timeseries = os.path.join("data", "nhs_timeseries.txt")
+    output_timeseries = os.path.join(base_dir, "data", "nhs_timeseries.txt")
+    # Ensure the directory exists
+    os.makedirs(os.path.dirname(output_timeseries), exist_ok=True)
     pivot.to_csv(output_timeseries, header=False, index=False)
     logging.info(f"Saved processed time-series data to {output_timeseries}")
 
     # Compute the geographic adjacency matrix based on the corrected coordinates.
-    # For each region, get its (latitude, longitude) from the processed data.
     region_coords = data_processed.groupby("areaName").first()[["latitude", "longitude"]]
     regions = list(region_coords.index)
     latitudes = region_coords["latitude"].tolist()
     longitudes = region_coords["longitude"].tolist()
-    threshold_distance = 150  # set threshold distance in km (adjust as needed)
+    threshold_distance = 150  # km
     adj_matrix = compute_geographic_adjacency(regions, latitudes, longitudes, threshold=threshold_distance)
     
     # Save the adjacency matrix as a comma-separated txt file.
-    output_adj = os.path.join("data", "nhs-adj.txt")
+    output_adj = os.path.join(base_dir, "data", "nhs-adj.txt")
+    os.makedirs(os.path.dirname(output_adj), exist_ok=True)
     np.savetxt(output_adj, adj_matrix.numpy(), fmt="%.0f", delimiter=",")
     logging.info(f"Saved geographic adjacency matrix to {output_adj}")
 

@@ -1,7 +1,7 @@
 """
 preprocess_ltla.py
 
-This script loads the raw LTLA COVID data from merged_LTLA_data.csv,
+This script loads the raw LTLA COVID data from cleaned_LTLA.csv,
 converts the population column to a numeric type, applies a 7-day rolling mean 
 to the daily cases, sorts the data by area and date, creates a pivot table 
 for the target variable, and computes the geographic adjacency matrix using 
@@ -45,8 +45,15 @@ def create_target_timeseries(data: pd.DataFrame, target_feature: str = "dailyCas
     """
     Creates a pivot table with dates as rows and area names as columns,
     using the specified target feature.
+    
+    To ensure that each (date, areaName) combination is unique,
+    duplicate entries are aggregated (by taking their mean).
     """
-    pivot = data.pivot(index='date', columns='areaName', values=target_feature)
+    # Aggregate duplicate entries by taking the mean of the target feature.
+    data_unique = data.groupby(['date', 'areaName'])[target_feature].mean().reset_index()
+    
+    # Pivot the aggregated data so that rows are dates and columns are area names.
+    pivot = data_unique.pivot(index='date', columns='areaName', values=target_feature)
     pivot.ffill(inplace=True)
     pivot.fillna(0, inplace=True)
     return pivot
@@ -87,7 +94,7 @@ def main():
     base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
     data_dir = os.path.join(base_dir, "data")
     
-    input_csv = os.path.join(data_dir, "updated_LTLA_fixed.csv")
+    input_csv = os.path.join(data_dir, "cleaned_LTLA.csv")
     if not os.path.exists(input_csv):
         logging.error(f"Input CSV file not found: {input_csv}")
         return
@@ -109,7 +116,7 @@ def main():
     logging.info(f"Saved processed time-series data to {output_timeseries}")
     
     # Compute the geographic adjacency matrix using the provided lat/long.
-    # We group by areaName and take the first occurrence to get the coordinates for each area.
+    # Group by areaName and take the first occurrence to get the coordinates for each area.
     area_coords = data_processed.groupby("areaName").first()[["lat", "long"]]
     regions = list(area_coords.index)
     latitudes = area_coords["lat"].tolist()

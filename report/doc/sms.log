@@ -1,0 +1,5104 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.6)  28 FEB 2025 01:14
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex
+(c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+(c:/texlive/2023/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(c:/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count186
+\c@chapter=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (c:/texlive/2023/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (c:/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+) (c:/texlive/2023/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count195
+\Gm@cntv=\count196
+\c@Gm@tempcnt=\count197
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks20
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (c:/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+ (c:/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-10-27 v7.01d Hypertext links for LaTeX
+ (c:/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (c:/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (c:/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-10-05 v2.54 Cross-referencing by name of section
+ (c:/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (c:/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (c:/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count198
+) (c:/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+\@linkdim=\dimen151
+\Hy@linkcounter=\count266
+\Hy@pagecounter=\count267
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-10-27 v7.01d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (c:/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count268
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-10-27 v7.01d Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4168.
+Package hyperref Info: Link nesting OFF on input line 4173.
+Package hyperref Info: Hyper index ON on input line 4176.
+Package hyperref Info: Plain pages OFF on input line 4183.
+Package hyperref Info: Backreferencing OFF on input line 4188.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4435.
+\c@Hy@tempcnt=\count269
+ (c:/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4773.
+\XeTeXLinkMargin=\dimen152
+ (c:/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count270
+\Field@Width=\dimen153
+\Fld@charsize=\dimen154
+Package hyperref Info: Hyper figures OFF on input line 6052.
+Package hyperref Info: Link nesting OFF on input line 6057.
+Package hyperref Info: Hyper index ON on input line 6060.
+Package hyperref Info: backreferencing OFF on input line 6067.
+Package hyperref Info: Link coloring OFF on input line 6072.
+Package hyperref Info: Link coloring with OCG OFF on input line 6077.
+Package hyperref Info: PDF/A mode OFF on input line 6082.
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count271
+\c@Item=\count272
+\c@Hfootnote=\count273
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (c:/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-10-27 v7.01d Hyperref driver for pdfTeX
+ (c:/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count274
+\c@bookmark@seq@number=\count275
+ (c:/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (c:/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip50
+) (c:/texlive/2023/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen155
+\lightrulewidth=\dimen156
+\cmidrulewidth=\dimen157
+\belowrulesep=\dimen158
+\belowbottomsep=\dimen159
+\aboverulesep=\dimen160
+\abovetopsep=\dimen161
+\cmidrulesep=\dimen162
+\cmidrulekern=\dimen163
+\defaultaddspace=\dimen164
+\@cmidla=\count276
+\@cmidlb=\count277
+\@aboverulesep=\dimen165
+\@belowrulesep=\dimen166
+\@thisruleclass=\count278
+\@lastruleclass=\count279
+\@thisrulewidth=\dimen167
+) (c:/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip51
+\enit@outerparindent=\dimen168
+\enit@toks=\toks21
+\enit@inbox=\box51
+\enit@count@id=\count280
+\enitdp@description=\count281
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen169
+\pgfutil@tempdimb=\dimen170
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box52
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks25
+))
+\pgf@x=\dimen171
+\pgf@y=\dimen172
+\pgf@xa=\dimen173
+\pgf@ya=\dimen174
+\pgf@xb=\dimen175
+\pgf@yb=\dimen176
+\pgf@xc=\dimen177
+\pgf@yc=\dimen178
+\pgf@xd=\dimen179
+\pgf@yd=\dimen180
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count282
+\c@pgf@countb=\count283
+\c@pgf@countc=\count284
+\c@pgf@countd=\count285
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count286
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count287
+\pgfsyssoftpath@bigbuffer@items=\count288
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen181
+\pgfmath@count=\count289
+\pgfmath@box=\box53
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count290
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen182
+\pgf@picmaxx=\dimen183
+\pgf@picminy=\dimen184
+\pgf@picmaxy=\dimen185
+\pgf@pathminx=\dimen186
+\pgf@pathmaxx=\dimen187
+\pgf@pathminy=\dimen188
+\pgf@pathmaxy=\dimen189
+\pgf@xx=\dimen190
+\pgf@xy=\dimen191
+\pgf@yx=\dimen192
+\pgf@yy=\dimen193
+\pgf@zx=\dimen194
+\pgf@zy=\dimen195
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen196
+\pgf@path@lasty=\dimen197
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen198
+\pgf@shorten@start@additional=\dimen199
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box54
+\pgf@hbox=\box55
+\pgf@layerbox@main=\box56
+\pgf@picture@serial@count=\count291
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen256
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen257
+\pgf@pt@y=\dimen258
+\pgf@pt@temp=\dimen259
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen260
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen261
+\pgf@sys@shading@range@num=\count292
+\pgf@shadingcount=\count293
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box57
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box58
+) (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen262
+\pgf@nodesepend=\dimen263
+) (c:/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen264
+\pgffor@skip=\dimen265
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+)) (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count294
+\pgfplotmarksize=\dimen266
+)
+\tikz@lastx=\dimen267
+\tikz@lasty=\dimen268
+\tikz@lastxsaved=\dimen269
+\tikz@lastysaved=\dimen270
+\tikz@lastmovetox=\dimen271
+\tikz@lastmovetoy=\dimen272
+\tikzleveldistance=\dimen273
+\tikzsiblingdistance=\dimen274
+\tikz@figbox=\box59
+\tikz@figbox@bg=\box60
+\tikz@tempbox=\box61
+\tikz@tempbox@bg=\box62
+\tikztreelevel=\count295
+\tikznumberofchildren=\count296
+\tikznumberofcurrentchild=\count297
+\tikz@fig@count=\count298
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count299
+\pgfmatrixcurrentcolumn=\count300
+\pgf@matrix@numberofcolumns=\count301
+)
+\tikz@expandcount=\count302
+ (c:/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+) (c:/texlive/2023/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box63
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen275
+\ttl@minus=\dimen276
+\ttl@toksa=\toks34
+\titlewidth=\dimen277
+\titlewidthlast=\dimen278
+\titlewidthfirst=\dimen279
+) (c:/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen280
+\ar@mcellbox=\box64
+\extrarowheight=\dimen281
+\NC@list=\toks35
+\extratabsurround=\skip63
+\backup@length=\skip64
+\ar@cellbox=\box65
+) (c:/texlive/2023/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen282
+\c@nlinenum=\count303
+\TeXr@lab=\toks36
+) (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip65
+\bibsep=\skip66
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count304
+) (c:/texlive/2023/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count305
+\float@exts=\toks37
+\float@box=\box66
+\@float@everytoks=\toks38
+\@floatcapt=\box67
+) (c:/texlive/2023/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 26.
+ (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count306
+\l__pdf_internal_box=\box68
+) (./sms.aux)
+\openout1 = `sms.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen283
+\scratchbox=\box69
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen284
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks40
+) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+Package hyperref Info: Link coloring ON on input line 37.
+\@outlinefile=\write4
+\openout4 = `sms.out'.
+
+
+
+LaTeX Warning: File `placeholder_logo.png' not found on input line 42.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:42: Package pdftex.def Error: File `placeholder_logo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...width=0.5\textwidth]{placeholder_logo.png}
+                                                  \\[1cm]
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 42.
+(c:/texlive/2023/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+) [1
+
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49     \end{abstract}
+                        [1]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 \end{titlepage}
+                     [1]
+No file sms.toc.
+\tf@toc=\write5
+\openout5 = `sms.toc'.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \newpage
+              [1
+
+]
+Chapter 1.
+[2
+
+{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3]
+Chapter 2.
+[4
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.234 \end{figure}
+                  ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.326 
+      ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.327 \chapter
+              {Implementation Roadmap}]
+Chapter 3.
+
+Overfull \hbox (100.5075pt too wide) in paragraph at lines 376--377
+ [][] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 387.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 387.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 387.
+[7
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.410 
+      ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.443     \item D
+                 evelop role-based dashboards]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:501: Misplaced alignment tab character &.
+l.501 ...p for additional modules (e.g., Payment &
+                                                   Billing)
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+Chapter 4.
+[11
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.572 
+      ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.604 \end{verbatim}
+                    ]
+Overfull \hbox (322.22893pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (login) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black] {Parent logs into system};[] 
+ []
+
+
+Overfull \hbox (429.73798pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (dashboard) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=login] {Parent views dashboard};[] 
+ []
+
+
+Overfull \hbox (497.63843pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (child) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=dashboard] {Parent selects child (if multiple)};[] 
+ []
+
+
+Overfull \hbox (407.10449pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (decision) [diamond, minimum width=3.5cm, minimum height=1.8cm, text centered, draw=black, below of=child, yshift=-1.2cm] {Communication\\ Type?};[] 
+ []
+
+
+Overfull \hbox (554.22214pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (teacher) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=-5cm, yshift=-1.2cm] {Message Teacher};[] 
+ []
+
+
+Overfull \hbox (576.85562pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (admin) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=5cm, yshift=-1.2cm] {Contact Administration};[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[13]
+Overfull \hbox (475.00494pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (compose) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=teacher, yshift=-0.8cm] {Compose message};[] 
+ []
+
+
+Overfull \hbox (491.98006pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (admin_form) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=admin, yshift=-0.8cm] {Fill contact form};[] 
+ []
+
+
+Overfull \hbox (803.19046pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (topics) [rectangle, rounded corners, minimum width=5cm, minimum height=1.5cm, text centered, draw=black, below of=compose, yshift=-0.8cm] {- Attendance issues\\ - Academic performance\\ - Assignment clarifications};[] 
+ []
+
+
+Overfull \hbox (803.19046pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (admin_topics) [rectangle, rounded corners, minimum width=5cm, minimum height=1.5cm, text centered, draw=black, below of=admin_form, yshift=-0.8cm] {- Administrative requests\\ - Account issues\\ - General feedback};[] 
+ []
+
+
+Overfull \hbox (746.60675pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (follow_up) [rectangle, rounded corners, minimum width=6cm, minimum height=0.8cm, text centered, draw=black, below of=topics, xshift=2.5cm, yshift=-2cm] {Parent receives notification when response arrives};[] 
+ []
+
+
+Overfull \hbox (656.07281pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (history) [rectangle, rounded corners, minimum width=6cm, minimum height=0.8cm, text centered, draw=black, below of=follow_up, yshift=-0.8cm] {Communication history available for reference};[] 
+ []
+
+
+Overfull \hbox (327.8873pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (login) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black] {Student logs into system};[] 
+ []
+
+
+Overfull \hbox (435.39635pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (dashboard) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=login] {Student views dashboard};[] 
+ []
+
+
+Overfull \hbox (525.93028pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (assignments) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=dashboard] {Student opens Assignments section};[] 
+ []
+
+
+Overfull \hbox (503.2968pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (view) [rectangle, rounded corners, minimum width=4.5cm, minimum height=0.8cm, text centered, draw=black, below of=assignments] {Student views assignment details};[] 
+ []
+
+
+Overfull \hbox (486.32169pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (work) [rectangle, rounded corners, minimum width=4.5cm, minimum height=0.8cm, text centered, draw=black, below of=view] {Student completes assignment offline};[] 
+ []
+
+
+Overfull \hbox (452.37146pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (upload) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=work] {Student uploads work to system};[] 
+ []
+
+
+Overfull \hbox (333.54567pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (decision) [diamond, minimum width=2.5cm, minimum height=1.5cm, text centered, draw=black, below of=upload, yshift=-1.2cm] {Online?};[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+Overfull \hbox (644.75607pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (submit_online) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=-4.5cm, yshift=-1.2cm] {Work submitted directly};[] 
+ []
+
+
+Overfull \hbox (678.7063pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (store_offline) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=4.5cm, yshift=-1.2cm] {Work stored locally in browser};[] 
+ []
+
+
+Overfull \hbox (610.80585pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (confirm_online) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=submit_online, yshift=-0.8cm] {System confirms submission};[] 
+ []
+
+
+Overfull \hbox (559.88051pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (sync) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=store_offline, yshift=-0.8cm] {Auto-sync when online again};[] 
+ []
+
+
+Overfull \hbox (650.41444pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (teacher) [rectangle, rounded corners, minimum width=5cm, minimum height=0.8cm, text centered, draw=black, below of=confirm_online, yshift=-1.8cm] {Assignment available for teacher review};[] 
+ []
+
+
+Overfull \hbox (627.78096pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (feedback) [rectangle, rounded corners, minimum width=5cm, minimum height=0.8cm, text centered, draw=black, below of=teacher, yshift=-0.8cm] {Student later receives grade and feedback};[] 
+ []
+
+
+Overfull \hbox (327.8873pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (login) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black] {Student logs into system};[] 
+ []
+
+
+Overfull \hbox (435.39635pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (dashboard) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=login] {Student views dashboard};[] 
+ []
+
+
+Overfull \hbox (435.39635pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (decision) [diamond, minimum width=3.2cm, minimum height=1.8cm, text centered, draw=black, below of=dashboard, yshift=-1.2cm] {Information\\ to View?};[] 
+ []
+
+
+Overfull \hbox (576.85562pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (schedule) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=-5.5cm, yshift=-1.2cm] {Class Schedule};[] 
+ []
+
+
+Overfull \hbox (486.32169pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (grades) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=decision, yshift=-1.2cm] {Academic Grades};[] 
+ []
+
+
+Overfull \hbox (554.22214pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (tasks) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=decision, xshift=5.5cm, yshift=-1.2cm] {Upcoming Tasks};[] 
+ []
+
+
+Overfull \hbox (565.53888pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (view_schedule) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=schedule, yshift=-0.8cm] {Daily/weekly timetable};[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15]
+Overfull \hbox (554.22214pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (view_grades) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=grades, yshift=-0.8cm] {Subject-wise performance};[] 
+ []
+
+
+Overfull \hbox (531.58865pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (view_tasks) [rectangle, rounded corners, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=black, below of=tasks, yshift=-0.8cm] {Assignments/test dates};[] 
+ []
+
+
+Overfull \hbox (599.4891pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (detail) [rectangle, rounded corners, minimum width=5cm, minimum height=0.8cm, text centered, draw=black, below of=view_grades, yshift=-1.8cm] {Student can drill down for details};[] 
+ []
+
+
+Overfull \hbox (673.04793pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (action) [rectangle, rounded corners, minimum width=5.5cm, minimum height=0.8cm, text centered, draw=black, below of=detail, yshift=-0.8cm] {Student can take appropriate actions based on data};[] 
+ []
+
+
+Overfull \hbox (667.38956pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (offline) [rectangle, rounded corners, minimum width=5cm, minimum height=0.8cm, text centered, draw=black, below of=action, yshift=-0.8cm] {Information available offline if previously loaded};[] 
+ []
+
+
+Overfull \hbox (763.58186pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 During the implementation of the school management system, several technical and organizational challenges are anticipated. This section outlines these challenges and provides strategies to address them effectively.[] 
+ []
+
+
+Overfull \hbox (197.74477pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Data Migration & Transferring existing student, teacher, and academic records from legacy systems & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (135.50269pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Offline Reliability & Ensuring data integrity during offline usage and synchronization & \begin{itemize}[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[16]
+Overfull \hbox (203.40314pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Performance at Scale & Maintaining responsive performance with large datasets and concurrent users & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (90.23572pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 AI Model Accuracy & Building accurate prediction and facial recognition models & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (95.89409pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Security & Protecting sensitive student data and preventing unauthorized access & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (101.55246pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 User Adoption & Ensuring stakeholders embrace and effectively use the new system & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (78.91898pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Changing Requirements & Managing evolving requirements during implementation & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (16.6769pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Training & Educating staff, parents, and students on system usage & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (50.62712pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Workflow Integration & Adapting the system to existing school processes & \begin{itemize}[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[17]
+Overfull \hbox (95.89409pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Stakeholder Alignment & Managing expectations across diverse stakeholder groups & \begin{itemize}[] 
+ []
+
+
+Overfull \hbox (865.43254pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 Protecting sensitive student and academic data is a critical aspect of the school management system implementation. This section outlines the comprehensive security measures and compliance considerations incorporated into the design.[] 
+ []
+
+
+Overfull \hbox (209.06151pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (user) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black] {User};[] 
+ []
+
+
+Overfull \hbox (384.47101pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (auth) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=user] {Authentication Layer};[] 
+ []
+
+
+Overfull \hbox (378.81264pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (jwt) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=auth] {JWT Token Validation};[] 
+ []
+
+
+Overfull \hbox (407.10449pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (rbac) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=jwt] {Role-Based Access Control};[] 
+ []
+
+
+Overfull \hbox (395.78775pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (api) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=rbac] {API Security Middleware};[] 
+ []
+
+
+Overfull \hbox (401.44612pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (business) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=api] {Business Logic Layer};[] 
+ []
+
+
+Overfull \hbox (390.12938pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (data) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=business] {Data Access Layer};[] 
+ []
+
+
+Overfull \hbox (390.12938pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (encryption) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=data] {Data Encryption};[] 
+ []
+
+
+Overfull \hbox (418.42123pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (database) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=encryption] {Database Storage};[] 
+ []
+
+
+Overfull \hbox (480.66331pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (logging) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, right of=data, xshift=5cm] {Security Audit Logging};[] 
+ []
+
+
+Overfull \hbox (418.42123pt too wide) in paragraph at lines 976--976
+[]\T1/cmtt/m/n/10.95 \node (monitoring) [rectangle, rounded corners, minimum width=4cm, minimum height=0.8cm, text centered, draw=black, below of=logging] {Threat Monitoring};[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[18]
+Overfull \hbox (424.0796pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Authentication:} Multi-factor authentication for administrative accounts, strong password policies, and secure password reset mechanisms.[] 
+ []
+
+
+Overfull \hbox (265.64522pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Authorization:} Granular role-based access control ensuring users only access data appropriate to their role.[] 
+ []
+
+
+Overfull \hbox (259.98685pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Data Encryption:} All sensitive data encrypted both in transit (HTTPS/TLS) and at rest (AES-256 encryption).[] 
+ []
+
+
+Overfull \hbox (390.12938pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Secure APIs:} API endpoints protected against common vulnerabilities (injection, XSS, CSRF) with input validation and sanitization.[] 
+ []
+
+
+Overfull \hbox (209.06151pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Audit Logging:} Comprehensive logging of all security-relevant events and access to sensitive data.[] 
+ []
+
+
+Overfull \hbox (141.16106pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Regular Security Testing:} Scheduled penetration testing and vulnerability assessments.[] 
+ []
+
+
+Overfull \hbox (220.37825pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Secure Development:} Following secure coding practices and regular dependency vulnerability scanning.[] 
+ []
+
+
+Overfull \hbox (141.16106pt too wide) in paragraph at lines 976--976
+[]    \T1/cmtt/m/n/10.95 \item \textbf{Data Minimization:} Collecting and storing only necessary data to reduce exposure risk.[] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[19]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[20]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[21]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[22
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1072 \chapter
+               {User Workflows}]
+Chapter 5.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1121: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1121 }
+        
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+[23
+
+]
+Overfull \vbox (179.74902pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1124 
+       ]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1171: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1171 }
+        
+(That was another \errmessage.)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[25]
+Overfull \vbox (270.59709pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1174 
+       ]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1226: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1226 }
+        
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1226: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1226 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27]
+Overfull \vbox (165.37656pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[28
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1229 
+       ]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1276: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1276 }
+        
+(That was another \errmessage.)
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[29]
+Overfull \vbox (329.4863pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[30
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1279 
+       ]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[31]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1304: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1304 ... draw=black, below of=info, yshift=-1cm]
+                                                   {Valid Student?};
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1310: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1310 ...ck, below of=system_link, yshift=-1.2cm]
+                                                   {Admin Approval\\ Require...
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1310: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1310 ...link, yshift=-1.2cm] {Admin Approval\\ R
+                                                  equired?};
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1316: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1316 ...ack, below of=admin_review, yshift=-1cm]
+                                                   {Approved?};
+(That was another \errmessage.)
+
+
+LaTeX Warning: Float too large for page by 631.60306pt on input line 1349.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[32
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1350 \end{landscape}
+                      ]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1399: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1399 }
+        
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:1399: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1399 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33
+
+
+]
+Overfull \vbox (128.39012pt too high) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1402 
+       ]
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+\pgfmath@dimen@ ...men@@ #1=0.0pt\relax \pgfmath@ 
+                                                  
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.2500 }
+        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Argument of \pgfmath@dimen@@ has an extra }.
+<inserted text> 
+                \par 
+l.2500 }
+        
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\expandafter \def \expandafter \pgfmath@number \expandafter {\the \pgfmath@count \ETC.
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Paragraph ended before \pgfmath@dimen@@ was complete.
+<to be read again> 
+                   \par 
+l.2500 }
+        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+\pgfmath@dimen@ ...men@@ #1=0.0pt\relax \pgfmath@ 
+                                                  
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing number, treated as zero.
+<to be read again> 
+                   \protect 
+l.2500 }
+        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Argument of \pgfmath@dimen@@ has an extra }.
+<inserted text> 
+                \par 
+l.2500 }
+        
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+\expandafter \def \expandafter \pgfmath@number \expandafter {\the \pgfmath@count \ETC.
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Paragraph ended before \pgfmath@dimen@@ was complete.
+<to be read again> 
+                   \par 
+l.2500 }
+        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+<argument> ... \expandafter {\pgf@node@name }\fi }
+                                                  
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+\tikz@fig@continue ...scope \endpgfinterruptpath }
+                                                  }}\tikz@alias \tikz@node@f...
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+\tikz@fig@continue ...cope \endpgfinterruptpath }}
+                                                  }\tikz@alias \tikz@node@fi...
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+\tikz@fig@continue ...ope \endpgfinterruptpath }}}
+                                                  \tikz@alias \tikz@node@fin...
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Package tikz Error: Giving up on this path. Did you forget a semicolon?.
+
+See the tikz package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no x in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no x in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no h in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no s in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no z in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no y in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no b in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no f in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+
+Package hyperref Warning: Option `colorlinks' has already been used,
+(hyperref)                setting the option has no effect on input line 2500.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Improper \prevdepth.
+\newpage ...everypar {}\fi \par \ifdim \prevdepth 
+                                                  >\z@ \vskip -\ifdim \prevd...
+l.2500 }
+        
+You can refer to \spacefactor only in horizontal mode;
+you can refer to \prevdepth only in vertical mode; and
+neither of these is meaningful inside \write. So
+I'm forgetting what you said and using zero instead.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+LaTeX Warning: File `placeholder_logo.png' not found on input line 2500.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Package pdftex.def Error: File `placeholder_logo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: \begin{figure} on input line 1405 ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/24.88 Contents|
+ []
+
+(./sms.toc)
+\tf@toc=\write6
+\openout6 = `sms.toc'.
+
+
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/20.74 Chapter 6|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/24.88 Executive Sum-mary|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Key Ob-jec-tives|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Core Tech-nol-ogy Stack|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Module Struc-ture|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Implementation Ap-proach|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Expected Ben-e-fits|
+ []
+
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/20.74 Chapter 7|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/24.88 System Ar-chi-tec-ture Overview|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 High-Level Ar-chi-tec-ture|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Complete Mod-ule Struc-ture|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 System In-ter-ac-tion Flow|
+ []
+
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/20.74 Chapter 8|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/24.88 Implementation Roadmap|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Phased Im-ple-men-ta-tion Strat-egy|
+ []
+
+
+Overfull \hbox (100.5075pt too wide) in paragraph at lines 2500--2500
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Initial MVP Im-ple-men-ta-tion|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Detailed Phase Roadmap|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 1: Re-quire-ments & De-sign (Weeks 1-2)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 2: Ini-tial Setup and CI/CD (Week 3)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 3: Core Back-end De-vel-op-ment (Weeks 4-6)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 4: Core Fron-tend De-vel-op-ment (Weeks 5-7)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 5: Fea-ture De-vel-op-ment (Weeks 8-11)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 6: AI Fea-tures In-te-gra-tion (Weeks 12-14)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 7: Of-fline Mode and PWA (Weeks 15-16)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 8: Test-ing & Qual-ity As-sur-ance (Week 17)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 9: De-ploy-ment & Launch (Week 18)|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Phase 10: Post-Launch Sup-port (Week 19+)|
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced alignment tab character &.
+<argument> ... additional modules (e.g., Payment &
+                                                   Billing) \end {itemize} \...
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/20.74 Chapter 9|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|\T1/cmr/bx/n/24.88 Technical Im-ple-men-ta-tion De-tails|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Initial MVP Im-ple-men-ta-tion De-tails|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Core MVP Mod-ules|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 MVP Database Schema|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/14.4 Frontend Tech-ni-cal Stack|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Core Tech-nolo-gies|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+|[]\T1/cmr/bx/n/12 Frontend Or-ga-ni-za-tion|
+ []
+
+Runaway argument?
+ /src /components ## Reusable UI components /common ## Shared compone\ETC.
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Paragraph ended before \@xverbatim was complete.
+<to be read again> 
+                   \par 
+l.2500 }
+        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2500.
+Runaway argument?
+ /src /main.ts ## Application entry point /app.module.ts ## Root modu\ETC.
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Paragraph ended before \@xverbatim was complete.
+<to be read again> 
+                   \par 
+l.2500 }
+        
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Package pgfkeys Error: I do not know the key '/tikz/diamond' and I am going to ignore it. Perhaps you misspelled it.
+
+See the pgfkeys package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+(That was another \errmessage.)
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 During the implementation of the school management system, several technical
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 and organizational challenges are anticipated. This section outlines these
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Transferring existing student,
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 teacher, and academic records
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Develop specialized ETL
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Implement a phased
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Provide a transitional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Clear timestamp-based
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Maintaining responsive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Implement database
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Design for horizontal
+ []
+
+
+Underfull \hbox (badness 7981) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Start with conservative,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Continuously improve
+ []
+
+
+Underfull \hbox (badness 4416) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Provide manual override
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 and preventing unauthorized
+ []
+
+
+Underfull \hbox (badness 2932) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Comprehensive role-based
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Ensuring stakeholders embrace
+ []
+
+
+Underfull \hbox (badness 5847) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 and effectively use the new
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Comprehensive training
+ []
+
+
+Underfull \hbox (badness 4036) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Intuitive UX design for
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Designated "super users"
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Changing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Agile methodology for
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Regular stakeholder
+ []
+
+
+Underfull \hbox (badness 3792) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Educating staff, parents, and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Role-specific training
+ []
+
+
+Underfull \hbox (badness 1635) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 In-app guided tours and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Workflow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Process mapping
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 workshops before
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Stakeholder
+ []
+
+
+Underfull \hbox (badness 6332) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Managing expectations across
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Regular progress updates
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Clear communication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 about features and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Feedback channels for
+ []
+
+Chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Protecting sensitive student and academic data is a critical aspect of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 school management system implementation. This section outlines the comprehensive
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Authentication: Multi-factor authentication for administrative accounts,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Authorization: Granular role-based access control ensuring users only
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Data Encryption: All sensitive data encrypted both in transit (HTTPS/TLS)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Secure APIs: API endpoints protected against common vulnerabilities
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Audit Logging: Comprehensive logging of all security-relevant events and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Regular Security Testing: Scheduled penetration testing and vulnerability
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Secure Development: Following secure coding practices and regular
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Data Minimization: Collecting and storing only necessary data to reduce
+ []
+
+
+Underfull \hbox (badness 6592) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Local Education
+ []
+
+Chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 A comprehensive training and adoption strategy is essential for successful
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 implementation of the school management system. This section outlines the
+ []
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (450.90205pt too wide) in paragraph at lines 2500--2500
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Documentation: Comprehensive user manuals, quick reference guides, and FAQ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Video Tutorials: Role-specific video tutorials demonstrating key system
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Training Environments: Sandbox environments for practice without affecting
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Knowledge Base: Searchable library of how-to articles and troubleshooting
+ []
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (287.84071pt too wide) in paragraph at lines 2500--2500
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Help Desk: Dedicated support team available during implementation and early
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Super Users: Identified power users within each stakeholder group who
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Feedback Mechanisms: In-app feedback tools and regular surveys to identify
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Support Tiers: Structured escalation process from basic troubleshooting to
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmtt/m/n/10.95 Usage Analytics: Monitoring of system usage patterns to identify features
+ []
+
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 The school management system is designed to integrate with existing school
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmtt/m/n/10.95 technology infrastructure and third-party educational systems to create a
+ []
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 }
+        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (153.47574pt too wide) in paragraph at lines 2500--2500
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Authentication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Azure Active Directory
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 SAML 2.0 and OAuth 2.0
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 JWT token exchange
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Learning
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 Management
+ []
+
+
+Underfull \hbox (badness 4981) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 Synchronize course content
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 LTI (Learning Tools
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Scheduled synchronization
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Financial record
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Invoice generation and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Email service integration
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> .../Microsoft calendar integration \cm 
+                                                  , text centered, draw=blac...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 Google/Microsoft calendar
+ []
+
+
+Underfull \hbox (badness 2538) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 integration , text centered,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 draw=black, below
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 of=decision, xshift=-5cm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 yshift=-1.2cm] Message
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ....2cm] {Message Teacher}; \par \node 
+                                                  (admin) [rectangle, rounde...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (admin) [rectangle,
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 rounded corners, minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 width=4cm, minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 height=0.8cm, text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 of=decision, xshift=5cm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 yshift=-1.2cm] Contact
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...Contact Administration}; \par \node 
+                                                  (compose) [rectangle, roun...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (compose) [rectangle,
+ []
+
+
+Underfull \hbox (badness 7558) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 rounded corners, minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 width=4cm, minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 height=0.8cm, text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 of=teacher, yshift=-0.8cm]
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ....8cm] {Compose message}; \par \node 
+                                                  (admin_form) [rectangle, r...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (144.6744pt too wide) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (admin$[]\OML/cmm/m/it/10.95 orm\OT1/cmr/m/n/10.95 )[\OML/cmm/m/it/10.95 rectangle; roundedcorners; minimumwidth \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 4\OML/cmm/m/it/10.95 cm; minimumheight \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 1859) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 cm; textcentered; draw \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 black; belowof \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 admin; yshift \OT1/cmr/m/n/10.95 =
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+\par ...m \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...cm] {Fill contact form}; \par \node 
+                                                  (topics) [rectangle, round...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+
+Underfull \hbox (badness 7451) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 minimum width=5cm, minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 height=1.5cm, text centered,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 draw=black, below of=compose,
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+\@endpbox ...trutbox \par \color@endgroup \egroup 
+                                                  \hfil 
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 - Academic
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+<argument> ...mance\\ - Assignment clarifications}
+                                                  ; \par \node (admin_topics...
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+[]|\T1/cmr/m/n/10.95 - Assignment
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...ignment clarifications}; \par \node 
+                                                  (admin_topics) [rectangle,...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (190.8299pt too wide) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (admin$[]\OML/cmm/m/it/10.95 opics\OT1/cmr/m/n/10.95 )[\OML/cmm/m/it/10.95 rectangle; roundedcorners; minimumwidth \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (16.95547pt too wide) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cm; minimumheight \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (35.68732pt too wide) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cm; textcentered; draw \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 black; belowof \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (5.38791pt too wide) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 admin[]orm; yshift \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (66.3345pt too wide) in paragraph at lines 2500--2500
+\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 cm\OT1/cmr/m/n/10.95 ][]|$ 
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Extra }, or forgotten \endgroup.
+<argument> ...Account issues\\ - General feedback}
+                                                  ; \par \node (follow_up) [...
+l.2500 }
+        
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...s\\ - General feedback}; \par \node 
+                                                  (follow_up) [rectangle, ro...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (171.92058pt too wide) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (follow$[]\OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 )[\OML/cmm/m/it/10.95 rectangle; roundedcorners; minimumwidth \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (16.95547pt too wide) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 cm; minimumheight \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (35.68732pt too wide) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 cm; textcentered; draw \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 black; belowof \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OML/cmm/m/it/10.95 topics; xshift \OT1/cmr/m/n/10.95 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/m/it/10.95 cm; yshift \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (175.18098pt too wide) in paragraph at lines 2500--2500
+\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 cm\OT1/cmr/m/n/10.95 ][];$ 
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ... when response arrives}; \par \node 
+                                                  (history) [rectangle, roun...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 2707) in paragraph at lines 2500--2500
+[]\T1/cmr/m/n/10.95 (history) [rectangle,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 rounded corners,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 width=6cm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 minimum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 height=0.8cm,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 text centered,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 draw=black, below
+ []
+
+
+Overfull \hbox (4.30667pt too wide) in paragraph at lines 2500--2500
+\T1/cmr/m/n/10.95 of=follow$[]\OML/cmm/m/it/10.95 p; yshift \OT1/cmr/m/n/10.95 =
+ []
+
+
+Overfull \hbox (168.16068pt too wide) in paragraph at lines 2500--2500
+\OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 8\OML/cmm/m/it/10.95 cm\OT1/cmr/m/n/10.95 ][];$ 
+ []
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...vailable for reference}; \par \draw 
+                                                  [->] (login) -- (dashboard...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ... [->] (login) -- (dashboard); \draw 
+                                                  [->] (dashboard) -- (child...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ... [->] (dashboard) -- (child); \draw 
+                                                  [->] (child) -- (decision)...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...w [->] (child) -- (decision); \draw 
+                                                  [->] (decision) -- (teache...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...ay, above, sloped] {Teacher}; \draw 
+                                                  [->] (decision) -- (admin)...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...ve, sloped] {Administration}; \draw 
+                                                  [->] (teacher) -- (compose...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ... [->] (teacher) -- (compose); \draw 
+                                                  [->] (admin) -- (admin_for...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...[->] (admin) -- (admin_form); \draw 
+                                                  [->] (compose) -- (topics)...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...w [->] (compose) -- (topics); \draw 
+                                                  [->] (admin_form) -- (admi...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...dmin_form) -- (admin_topics); \draw 
+                                                  [->] (topics) |- (follow_u...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...[->] (topics) |- (follow_up); \draw 
+                                                  [->] (admin_topics) |- (fo...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+<argument> ...admin_topics) |- (follow_up); \draw 
+                                                  [->] (follow_up) -- (histo...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Undefined control sequence.
+\endtikzpicture ...r@layerlist@globally \endscope 
+                                                  \let \pgf@baseline =\pgf@s...
+l.2500 }
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing $ inserted.
+<inserted text> 
+                $
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing } inserted.
+<inserted text> 
+                }
+l.2500 }
+        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+I'm guessing that you meant to end an alignment here.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Misplaced \cr.
+<inserted text> \cr 
+                    
+l.2500 }
+        
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.2500 }
+        
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 22544 strings out of 474271
+ 412319 string characters out of 5751527
+ 2043533 words of memory out of 5000000
+ 44298 multiletter control sequences out of 15000+600000
+ 571213 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 84i,14n,87p,538b,1449s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+c:/Users/olarinoyem/Project/MAGAT-FN/report/doc/sms.tex:2500:  ==> Fatal error occurred, no output PDF file produced!

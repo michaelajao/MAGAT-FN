@@ -24,66 +24,56 @@
 \@writefile{toc}{\contentsline {section}{\numberline {III}Methodology}{2}{section.3}\protected@file@percent }
 \newlabel{sec:methodology}{{III}{2}{Methodology}{section.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Model Overview}{2}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Detailed Architecture}{2}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}1}Input Processing and Feature Extraction}{2}{subsubsection.3.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}2}Adaptive Graph Attention Module (AGAM)}{2}{subsubsection.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}3}Multi-scale Temporal Fusion Module (MTFM)}{2}{subsubsection.3.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}4}Progressive Prediction and Refinement Module (PPRM)}{3}{subsubsection.3.2.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Model Innovation and Technical Contributions}{3}{subsection.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-C}1}Novel Adaptive Graph Attention Design}{3}{subsubsection.3.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-C}2}Multi-scale Feature Integration}{3}{subsubsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-C}3}Progressive Refinement Mechanism}{3}{subsubsection.3.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Optimization}{3}{subsection.3.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Training Details and Implementation}{3}{subsection.3.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-E}1}Batch Processing}{3}{subsubsection.3.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-E}2}Training Strategy}{3}{subsubsection.3.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-E}3}Model Complexity Analysis}{4}{subsubsection.3.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-F}}Data Preprocessing and Experimental Setup}{4}{subsection.3.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-F}1}Data Collection and Preprocessing}{4}{subsubsection.3.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-F}2}Visualization and Analysis Tools}{4}{subsubsection.3.6.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Forecast visualization for Japan-COVID dataset showing model predictions (red) against ground truth (blue) with 95\% confidence intervals (shaded).}}{4}{figure.caption.1}\protected@file@percent }
+\citation{gat}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Detailed Architecture}{3}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}1}Input Processing and Feature Extraction}{3}{subsubsection.3.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}2}Adaptive Graph Attention Module (AGAM)}{3}{subsubsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}3}Multi-scale Temporal Fusion Module (MTFM)}{3}{subsubsection.3.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-B}4}Progressive Prediction and Refinement Module (PPRM)}{4}{subsubsection.3.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Optimization}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments and Analysis}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Implementation Details}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}1}Training Algorithm}{5}{subsubsection.4.1.1}\protected@file@percent }
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces MAGAT-FN Training Procedure}}{5}{algorithm.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:forecast_japan}{{1}{4}{Forecast visualization for Japan-COVID dataset showing model predictions (red) against ground truth (blue) with 95\% confidence intervals (shaded)}{figure.caption.1}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Learned attention patterns: (a) Physical adjacency matrix, (b) Input correlation matrix, (c) Learned attention weights showing dynamic spatial relationships.}}{4}{figure.caption.2}\protected@file@percent }
-\newlabel{fig:attention_vis}{{2}{4}{Learned attention patterns: (a) Physical adjacency matrix, (b) Input correlation matrix, (c) Learned attention weights showing dynamic spatial relationships}{figure.caption.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-G}}Evaluation Methodology}{4}{subsection.3.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-G}1}Metrics and Evaluation Protocol}{4}{subsubsection.3.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {III-G}2}Visualization Framework}{4}{subsubsection.3.7.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule.}}{5}{figure.caption.3}\protected@file@percent }
-\newlabel{fig:training_curves}{{3}{5}{Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule}{figure.caption.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {IV}Results and Discussion}{5}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Overall Performance}{5}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Ablation Study Analysis}{5}{subsection.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Computational Efficiency}{5}{subsection.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Visualization Analysis}{5}{subsection.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}1}Attention Pattern Analysis}{5}{subsubsection.4.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}2}Prediction Uncertainty Visualization}{5}{subsubsection.4.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}3}Training Dynamics}{5}{subsubsection.4.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-D}4}Regional Performance Analysis}{5}{subsubsection.4.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Real-World Impact Analysis}{5}{subsection.4.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}1}Healthcare Resource Optimization}{5}{subsubsection.4.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}2}Early Warning Capabilities}{5}{subsubsection.4.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}3}Deployment Considerations}{5}{subsubsection.4.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-F}}Comparative Model Analysis}{5}{subsection.4.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-F}1}Performance by Data Characteristics}{5}{subsubsection.4.6.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Performance metrics across different datasets and methods. Results show RMSE and PCC for each forecast horizon.}}{6}{table.caption.4}\protected@file@percent }
-\newlabel{tab:overall_results}{{I}{6}{Performance metrics across different datasets and methods. Results show RMSE and PCC for each forecast horizon}{table.caption.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Impact of Component Removal on Model Performance}}{6}{table.caption.5}\protected@file@percent }
-\newlabel{tab:ablation}{{II}{6}{Impact of Component Removal on Model Performance}{table.caption.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Model Efficiency and Resource Usage Comparison}}{6}{table.caption.6}\protected@file@percent }
-\newlabel{tab:efficiency}{{III}{6}{Model Efficiency and Resource Usage Comparison}{table.caption.6}{}}
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-F}2}Computational Resource Analysis}{6}{subsubsection.4.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-G}}Case Study Analysis}{6}{subsection.4.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-G}1}Urban Hospital Network Planning}{6}{subsubsection.4.7.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-G}2}Regional Outbreak Management}{6}{subsubsection.4.7.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion and Future Work}{6}{section.5}\protected@file@percent }
+\newlabel{alg:training}{{1}{5}{MAGAT-FN Training Procedure}{algorithm.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Datasets and Preprocessing}{5}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}1}Japan-COVID Dataset}{5}{subsubsection.4.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}2}NHS-Timeseries Dataset}{6}{subsubsection.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}3}Regional-COVID Dataset}{6}{subsubsection.4.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Evaluation Metrics and Protocol}{6}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Visualization and Analysis Tools}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-E}}Evaluation Methodology}{7}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}1}Metrics and Evaluation Protocol}{7}{subsubsection.4.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-E}2}Visualization Framework}{7}{subsubsection.4.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Forecast visualization for Japan-COVID dataset showing model predictions (red) against ground truth (blue) with 95\% confidence intervals (shaded).}}{7}{figure.caption.1}\protected@file@percent }
+\newlabel{fig:forecast_japan}{{1}{7}{Forecast visualization for Japan-COVID dataset showing model predictions (red) against ground truth (blue) with 95\% confidence intervals (shaded)}{figure.caption.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results and Discussion}{7}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Overall Performance}{7}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Ablation Study Analysis}{7}{subsection.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Learned attention patterns: (a) Physical adjacency matrix, (b) Input correlation matrix, (c) Learned attention weights showing dynamic spatial relationships.}}{8}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:attention_vis}{{2}{8}{Learned attention patterns: (a) Physical adjacency matrix, (b) Input correlation matrix, (c) Learned attention weights showing dynamic spatial relationships}{figure.caption.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Performance metrics across different datasets and methods. Results show RMSE and PCC for each forecast horizon.}}{8}{table.caption.4}\protected@file@percent }
+\newlabel{tab:overall_results}{{I}{8}{Performance metrics across different datasets and methods. Results show RMSE and PCC for each forecast horizon}{table.caption.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule.}}{8}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:training_curves}{{3}{8}{Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Impact of Component Removal on Model Performance}}{8}{table.caption.5}\protected@file@percent }
+\newlabel{tab:ablation}{{II}{8}{Impact of Component Removal on Model Performance}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Computational Efficiency}{9}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Model Efficiency and Resource Usage Comparison}}{9}{table.caption.6}\protected@file@percent }
+\newlabel{tab:efficiency}{{III}{9}{Model Efficiency and Resource Usage Comparison}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Visualization Analysis}{9}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}1}Attention Pattern Analysis}{9}{subsubsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}2}Prediction Uncertainty Visualisation}{10}{subsubsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}3}Training Dynamics}{10}{subsubsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}4}Regional Performance Analysis}{10}{subsubsection.5.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Real-World Impact Analysis}{10}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}1}Healthcare Resource Optimisation}{10}{subsubsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}2}Early Warning System Performance}{11}{subsubsection.5.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}3}Deployment Considerations}{11}{subsubsection.5.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Comparative Model Analysis}{11}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-F}1}Performance by Data Characteristics}{11}{subsubsection.5.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion and Future Work}{12}{section.6}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{references}
-\bibcite{gnn_survey}{1}
-\bibcite{attention_mechanisms}{2}
-\bibcite{compartmentalmodel}{3}
-\bibcite{sirbasedmodel}{4}
-\bibcite{cola_gnn}{5}
-\bibcite{saiflu_net}{6}
-\@writefile{toc}{\contentsline {section}{References}{7}{section*.7}\protected@file@percent }
-\gdef \@abspage@last{7}
+\gdef \@abspage@last{13}

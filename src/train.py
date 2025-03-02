@@ -19,7 +19,7 @@ import pandas as pd  # For handling date ranges and saving CSV files
 # Add parent directory to path (if needed)
 current_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(current_dir)
-if parent_dir not in sys.path:
+if (parent_dir not in sys.path):
     sys.path.insert(0, parent_dir)
 
 # Import our model (ensure the file is renamed to MAGAT_FN.py)
@@ -34,7 +34,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s')
 
 # Set up directory for saving figures (report/figures)
 figures_dir = os.path.join(parent_dir, "report", "figures")
-if not os.path.exists(figures_dir):
+if (not os.path.exists(figures_dir)):
     os.makedirs(figures_dir)
 
 parser = argparse.ArgumentParser()
@@ -190,135 +190,131 @@ def train_epoch(data_loader, data):
         n_samples += (output.size(0) * data_loader.m)
     return float(total_loss / n_samples)
 
-def visualize_forecast(data_loader, model, save_path):
-    """
-    Visualizes the forecast versus ground truth for one sample and one node.
-    The forecast and ground truth are unnormalized to the original scale.
-    The x-axis uses dates based on the provided start_date (assumed weekly frequency).
-    """
-    model.eval()
-    # Obtain one batch from the test set
-    batch = next(data_loader.get_batches(data_loader.test, args.batch, False))
-    X, Y = batch[0], batch[1]
-    index = batch[2]
-    output, _ = model(X, index)  # output shape: [B, horizon, N]
-    
-    # For visualization, pick the first sample and first node
-    forecast = output[0, :, 0].detach().cpu().numpy()
-    # Use the ground truth from Y (assuming a single value per sample)
-    ground_truth = Y[0, 0].detach().cpu().numpy()
-    
-    # Unnormalize forecast and ground truth for node 0
-    forecast = forecast * (data_loader.max[0] - data_loader.min[0]) + data_loader.min[0]
-    ground_truth = ground_truth * (data_loader.max[0] - data_loader.min[0]) + data_loader.min[0]
-    
-    # Generate a date range for the forecast horizon using start_date argument
-    forecast_dates = pd.date_range(start=args.start_date, periods=args.horizon, freq='W')
-    
-    plt.figure(figsize=(10, 6))
-    plt.plot(forecast_dates, forecast, marker='o', label='Forecast')
-    plt.plot(forecast_dates, [ground_truth] * args.horizon, linestyle='--', label='Ground Truth')
-    plt.xlabel('Date')
-    plt.ylabel('Value')
-    plt.title('Forecast vs Ground Truth (Sample 0, Node 0)')
-    plt.legend()
-    plt.grid(True)
-    plt.savefig(save_path, dpi=300)
-    plt.close()
+
 
 def visualize_matrices(data_loader, model, save_path):
     """
     Creates a three-panel figure comparing:
-      (a) Geolocation Matrix,
-      (b) Input Correlation Matrix, and
-      (c) Learned Attention Matrix.
+      (a) Geolocation Matrix (physical adjacency),
+      (b) Input Correlation Matrix (statistical relationships), and
+      (c) Learned Attention Matrix (dynamic relationships).
+    Includes hierarchical clustering to identify regional communities with similar patterns.
     """
-    # (a) Geolocation Matrix
+    model.eval()
+    
+    # (a) Geolocation Matrix (physical adjacency)
     if hasattr(data_loader, 'adj'):
         geo_mat = data_loader.adj.cpu().numpy()
     else:
-        geo_mat = None
+        geo_mat = np.eye(data_loader.m)  # Use identity matrix as fallback
 
     # (b) Input Correlation Matrix computed from raw input data
     raw_data = data_loader.rawdat  # shape: [n_samples, num_nodes]
-    input_corr = np.corrcoef(raw_data.T)
-
-    # (c) Learned Attention Matrix: run one forward pass and retrieve stored attention
+    input_corr = np.corrcoef(raw_data.T)  # Correlation between nodes
+    
+    # (c) Learned Attention Matrix: run forward pass and retrieve stored attention
     batch = next(data_loader.get_batches(data_loader.test, args.batch, False))
     X, _, _ = batch
-    _ = model(X, None)  # Forward pass; ensure that AGAM stores its attention in self.attn
+    _ = model(X, None)  # Forward pass to generate attention
+    
     if hasattr(model.graph_attention, 'attn'):
-        attn_mat = model.graph_attention.attn[0].detach().cpu().numpy()  # shape: (heads, N, N)
-        attn_mat = np.mean(attn_mat, axis=0)
+        attn_mat = model.graph_attention.attn[0].mean(dim=0).detach().cpu().numpy()
     else:
-        attn_mat = None
-
-    # Create subplots
-    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
-    if geo_mat is not None:
-        im0 = axes[0].imshow(geo_mat, cmap='viridis')
-        axes[0].set_title("Geolocation Matrix")
-        plt.colorbar(im0, ax=axes[0])
-    else:
-        axes[0].text(0.5, 0.5, 'No Geolocation Matrix', horizontalalignment='center')
-        axes[0].set_title("Geolocation Matrix")
+        attn_mat = np.zeros_like(input_corr)  # Fallback if attention not available
+    
+    # Apply hierarchical clustering to reorganize matrices for better visualization
+    try:
+        from scipy.cluster.hierarchy import linkage, dendrogram
+        from scipy.spatial.distance import squareform
+        
+        # Use learned attention for clustering
+        distance = 1 - attn_mat
+        np.fill_diagonal(distance, 0)  # Zero out diagonal
+        # Convert to condensed distance matrix
+        condensed_dist = squareform(distance)
+        # Perform hierarchical clustering
+        Z = linkage(condensed_dist, method='ward')
+        
+        # Get the reordering from dendrogram
+        d = dendrogram(Z, no_plot=True)
+        idx = d['leaves']
+        
+        # Reorder all matrices according to clustering
+        geo_mat = geo_mat[idx, :][:, idx]
+        input_corr = input_corr[idx, :][:, idx]
+        attn_mat = attn_mat[idx, :][:, idx]
+        
+        clustered = True
+    except:
+        clustered = False
+    
+    # Create figure with three panels
+    fig, axes = plt.subplots(1, 3, figsize=(18, 6))
+    
+    # Plot matrices
+    im0 = axes[0].imshow(geo_mat, cmap='viridis')
+    axes[0].set_title("(a) Geolocation Matrix", fontsize=14)
+    plt.colorbar(im0, ax=axes[0])
+    axes[0].set_xlabel("Region Index" + (" (Clustered)" if clustered else ""))
+    axes[0].set_ylabel("Region Index" + (" (Clustered)" if clustered else ""))
 
     im1 = axes[1].imshow(input_corr, cmap='viridis')
-    axes[1].set_title("Input Correlation Matrix")
+    axes[1].set_title("(b) Input Correlation Matrix", fontsize=14)
     plt.colorbar(im1, ax=axes[1])
+    axes[1].set_xlabel("Region Index" + (" (Clustered)" if clustered else ""))
+    axes[1].set_ylabel("Region Index" + (" (Clustered)" if clustered else ""))
 
-    if attn_mat is not None:
-        im2 = axes[2].imshow(attn_mat, cmap='viridis')
-        axes[2].set_title("Learned Attention Matrix")
-        plt.colorbar(im2, ax=axes[2])
-    else:
-        axes[2].text(0.5, 0.5, 'No Attention Matrix', horizontalalignment='center')
-        axes[2].set_title("Learned Attention Matrix")
+    im2 = axes[2].imshow(attn_mat, cmap='viridis')
+    axes[2].set_title("(c) Learned Attention Matrix", fontsize=14)
+    plt.colorbar(im2, ax=axes[2])
+    axes[2].set_xlabel("Region Index" + (" (Clustered)" if clustered else ""))
+    axes[2].set_ylabel("Region Index" + (" (Clustered)" if clustered else ""))
 
     plt.tight_layout()
     plt.savefig(save_path, dpi=300)
     plt.close(fig)
     
-    
-def visualize_node_level_forecasts(data_loader, model, save_path, node_indices=[0,1,2,3]):
+def plot_loss_curves(train_losses, val_losses, save_path, args):
     """
-    For one test sample, plot forecast vs. ground truth for several selected nodes.
-    Each subplot corresponds to one node.
+    Creates an enhanced visualization of training and validation loss curves
+    with detailed information and better styling.
     """
-    model.eval()
-    batch = next(data_loader.get_batches(data_loader.test, args.batch, False))
-    X, Y = batch[0], batch[1]
-    output, _ = model(X, None)  # output: [B, horizon, N]
-    # Select the first sample
-    sample_forecast = output[0].detach().cpu().numpy()  # shape: [horizon, N]
-    sample_truth = Y[0].detach().cpu().numpy()            # shape: [N]
+    fig, ax = plt.subplots(figsize=(10, 6))
+    epochs = range(1, len(train_losses) + 1)
     
-    # Unnormalize for each node (assume data_loader.max and min are arrays of length m)
-    unnorm_forecast = sample_forecast.copy()
-    unnorm_truth = sample_truth.copy()
-    for i in range(len(unnorm_truth)):
-        unnorm_forecast[:, i] = unnorm_forecast[:, i] * (data_loader.max[i] - data_loader.min[i]) + data_loader.min[i]
-        unnorm_truth[i] = unnorm_truth[i] * (data_loader.max[i] - data_loader.min[i]) + data_loader.min[i]
-
-    # Create subplots for selected nodes
-    num_nodes = len(node_indices)
-    fig, axes = plt.subplots(1, num_nodes, figsize=(5*num_nodes, 4))
-    if num_nodes == 1:
-        axes = [axes]
-    for j, node in enumerate(node_indices):
-        axes[j].plot(range(1, args.horizon+1), unnorm_forecast[:, node], marker='o', label='Forecast')
-        axes[j].plot(range(1, args.horizon+1), [unnorm_truth[node]]*args.horizon, linestyle='--', label='Ground Truth')
-        axes[j].set_title(f'Node {node}')
-        axes[j].set_xlabel('Horizon')
-        axes[j].set_ylabel('Value')
-        axes[j].legend()
-        axes[j].grid(True)
+    # Plot curves with enhanced styling
+    ax.plot(epochs, train_losses, 'b-', label='Training Loss', linewidth=2, alpha=0.8)
+    ax.plot(epochs, val_losses, 'r-', label='Validation Loss', linewidth=2, alpha=0.8)
+    
+    # Add grid with custom styling
+    ax.grid(True, linestyle='--', alpha=0.7)
+    
+    # Find and mark best validation point
+    best_val_epoch = val_losses.index(min(val_losses)) + 1
+    best_val_loss = min(val_losses)
+    ax.scatter(best_val_epoch, best_val_loss, color='green', s=100, zorder=5, 
+              label=f'Best Val Loss: {best_val_loss:.6f}')
+    
+    # Customize appearance
+    ax.set_xlabel('Epoch', fontsize=12)
+    ax.set_ylabel('Loss', fontsize=12)
+    title = f'Training Progress\nDataset: {args.dataset}, Window: {args.window}, Horizon: {args.horizon}'
+    ax.set_title(title, fontsize=14, pad=10)
+    
+    # Add text box with training details
+    textstr = f'Learning Rate: {args.lr}\n'
+    textstr += f'Batch Size: {args.batch}\n'
+    textstr += f'Best Epoch: {best_val_epoch}'
+    props = dict(boxstyle='round', facecolor='wheat', alpha=0.3)
+    ax.text(0.02, 0.98, textstr, transform=ax.transAxes, fontsize=10,
+            verticalalignment='top', bbox=props)
+    
+    ax.legend(loc='upper right', frameon=True, framealpha=0.8)
     plt.tight_layout()
-    plt.savefig(save_path, dpi=300)
+    plt.savefig(save_path, dpi=300, bbox_inches='tight')
     plt.close(fig)
 
 # Training loop
-# For tracking loss curves
 train_losses = []
 val_losses = []
 
@@ -376,28 +372,10 @@ except KeyboardInterrupt:
     print('-' * 89)
     print('Exiting from training early, epoch', epoch)
 
-# Plot and save the loss curves
-fig_loss = plt.figure(figsize=(8, 5))
-plt.plot(range(1, len(train_losses) + 1), train_losses, label='Train Loss')
-plt.plot(range(1, len(val_losses) + 1), val_losses, label='Val Loss')
-plt.xlabel('Epoch')
-plt.ylabel('Loss')
-plt.title('Training and Validation Loss Curves')
-plt.legend()
+# Plot and save the enhanced loss curves
 loss_fig_path = os.path.join(figures_dir, f"loss_curve_{log_token}.png")
-plt.savefig(loss_fig_path, dpi=300)
-plt.close(fig_loss)
+plot_loss_curves(train_losses, val_losses, loss_fig_path, args)
 logger.info("Loss curve saved to %s", loss_fig_path)
-
-# Visualize forecast at original scale with date x-axis and save the figure
-forecast_fig_path = os.path.join(figures_dir, f"forecast_{log_token}.png")
-visualize_forecast(data_loader, model, forecast_fig_path)
-logger.info("Forecast figure saved to %s", forecast_fig_path)
-
-# Node-level forecast comparisons for selected nodes
-node_forecast_fig_path = os.path.join(figures_dir, f"node_forecasts_{log_token}.png")
-visualize_node_level_forecasts(data_loader, model, node_forecast_fig_path, node_indices=[0,1,2,3])
-logger.info("Node-level forecast comparisons saved to %s", node_forecast_fig_path)
 
 # Visualize matrices: Geolocation, Input Correlation, and Learned Attention
 matrices_fig_path = os.path.join(figures_dir, f"matrices_{log_token}.png")

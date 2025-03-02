@@ -36,8 +36,13 @@ class AdaptiveGraphAttentionModule(nn.Module):
     """Adaptive Graph Attention Module (AGAM) with learnable adjacency bias and attention regularization.
     
     This module implements a multi-head attention mechanism that learns dynamic spatial relationships
-    between nodes in the graph. It includes a learnable adjacency bias and attention regularization
-    to encourage sparse attention patterns.
+    between nodes in the graph. Due to its complex attention computations, this module represents
+    a significant portion of the model's computational cost, scaling quadratically with the number
+    of nodes.
+    
+    Computational Complexity:
+    - Time: O(N²H + NHD) where N is number of nodes, H is number of heads, D is hidden dimension
+    - Space: O(N²H + NHD) for attention weights and node representations
     
     Args:
         hidden_dim (int): Dimension of hidden representations
@@ -128,9 +133,13 @@ class AdaptiveGraphAttentionModule(nn.Module):
 class MultiScaleTemporalFusionModule(nn.Module):
     """Multi-scale Temporal Fusion Module (MTFM) for adaptive fusion of multi-scale temporal features.
     
-    This module implements a multi-scale temporal fusion mechanism that processes temporal features
-    at different scales using convolutional layers. It adaptively fuses these features using learnable
-    weights.
+    This module processes temporal features at different scales using parallel dilated convolutions.
+    The multi-scale approach leads to increased memory usage and computation time compared to
+    single-scale approaches.
+    
+    Computational Complexity:
+    - Time: O(BT(K₁ + K₂ + ... + Kₙ)) where B is batch size, T is sequence length, Kᵢ are kernel sizes
+    - Space: O(BTH × n_scales) for multi-scale feature maps
     
     Args:
         hidden_dim (int): Dimension of hidden representations
@@ -203,11 +212,15 @@ class MultiScaleTemporalFusionModule(nn.Module):
 # 3. Progressive Prediction and Refinement Module (PPRM)
 # =============================================================================
 class ProgressivePredictionRefinementModule(nn.Module):
-    """Progressive Prediction and Refinement Module (PPRM) that refines predictions via a gating mechanism.
+    """Progressive Prediction and Refinement Module (PPRM) that refines predictions via gating.
     
-    This module implements a progressive prediction and refinement mechanism that iteratively refines
-    predictions using a gating mechanism. It blends the last observation with the initial prediction
-    to produce refined predictions.
+    This module implements iterative refinement of predictions, requiring multiple forward passes
+    through neural networks per timestep. While effective for accuracy, this design choice
+    increases both training and inference time.
+    
+    Computational Complexity:
+    - Time: O(RHN) where R is number of refinement steps, H is hidden dim, N is number of nodes
+    - Space: O(HN) for intermediate predictions and gating values
     
     Args:
         hidden_dim (int): Dimension of hidden representations

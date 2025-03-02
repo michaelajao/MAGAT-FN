@@ -51,7 +51,7 @@
 
 % ---------- ABSTRACT ----------
 \begin{abstract}
-Accurate spatiotemporal forecasting is crucial for healthcare resource planning during public health crises, yet existing approaches often struggle to capture the complex interplay between spatial dependencies and temporal dynamics. We present MAGAT-FN (Multi-scale Adaptive Graph Attention Temporal Fusion Network), a novel lightweight architecture that effectively integrates adaptive graph attention mechanisms with multi-scale temporal feature fusion to achieve superior forecast accuracy. Our model features three key innovations: an Adaptive Graph Attention Module with learnable adjacency biases and attention regularization, a Multi-scale Temporal Fusion Module utilizing parallel dilated convolutions with adaptive scale weighting, and a Progressive Prediction and Refinement Module employing a gated blending mechanism. Comprehensive experiments on multiple healthcare datasets including Japan-COVID, NHS hospital utilization, and regional epidemiological data demonstrate that MAGAT-FN outperforms state-of-the-art baselines while maintaining computational efficiency. Notably, our model achieves up to 15.3\% lower RMSE and 7.2\% higher correlation with ground truth for 3-5 day forecasts, with particular strength in short to mid-term predictions crucial for healthcare resource management.
+Accurate spatiotemporal forecasting of disease spread and healthcare resource utilization remains a critical challenge during public health emergencies, where existing approaches struggle to capture complex spatial dependencies and temporal dynamics simultaneously. We present MAGAT-FN (Multi-scale Adaptive Graph Attention Temporal Fusion Network), a novel deep learning architecture that combines dynamic graph attention mechanisms with multi-scale temporal analysis to address these challenges. The model incorporates three key innovations: (1) an Adaptive Graph Attention Module with learnable adjacency biases that captures evolving spatial relationships between regions, (2) a Multi-scale Temporal Fusion Module that processes patterns at different timescales through parallel dilated convolutions, and (3) a Progressive Prediction and Refinement Module that mitigates error accumulation in long-horizon forecasts. Extensive experiments on multiple real-world healthcare datasets, including Japan-COVID prefectural data, NHS hospital utilization metrics, and US regional epidemiological records, demonstrate that MAGAT-FN significantly outperforms state-of-the-art baselines. The model achieves up to 21.2\% reduction in RMSE and 7.2\% higher correlation with ground truth for 3-5 day forecasts, while maintaining robust performance across diverse geographical contexts and forecast horizons. Notably, our model demonstrates particular strength in early outbreak detection, providing an average 4.2-day advance warning for significant case increases with 89\% peak detection accuracy. These capabilities, combined with well-calibrated uncertainty estimates, make MAGAT-FN especially valuable for healthcare resource planning and epidemiological surveillance applications.
 \end{abstract}
 
 % ---------- INDEX TERMS ----------
@@ -69,10 +69,9 @@ Current challenges in spatiotemporal forecasting for healthcare include:
 \item \textbf{Static Spatial Relationships:} Existing models typically rely upon fixed adjacency matrices, failing to capture evolving spatial dependencies during disease progression.
 \item \textbf{Limited Temporal Feature Extraction:} Most architectures employ single-scale temporal convolutions, overlooking patterns that manifest at different timescales.
 \item \textbf{Error Accumulation:} Traditional multi-step forecasting suffers from compounding errors at longer horizons, diminishing prediction reliability.
-\item \textbf{Computational Overhead:} Many current models are computationally intensive, limiting their practical deployment in resource-constrained healthcare environments.
 \end{itemize}
 
-To address these challenges, we propose MAGAT-FN, featuring three carefully designed lightweight yet effective components:
+To address these challenges, we propose MAGAT-FN, featuring three carefully designed components:
 
 \begin{itemize}
 \item \textbf{Adaptive Graph Attention Module (AGAM):} A multi-head attention mechanism with learnable adjacency biases and attention regularisation that dynamically captures spatial relationships across healthcare networks.
@@ -138,7 +137,7 @@ The initial processing pipeline transforms raw time series data into feature rep
 
 where $\mathbf{X} \in \mathbb{R}^{B \times T \times N}$ represents the input time series with batch size $B$, temporal length $T$, and $N$ spatial nodes. Parameters $\mu$ and $\sigma$ are the mean and standard deviation computed across the temporal dimension, and $\epsilon = 10^{-8}$ ensures numerical stability and prevents division by zero.
 
-Following normalisation, the data proceeds through a lightweight temporal convolution network:
+Following normalisation, we apply temporal convolution:
 
 \begin{equation}
 \mathbf{F}_{\text{temp}} = \text{ReLU}(\text{BN}(\text{Conv1D}(\mathbf{X}_{\text{norm}})))
@@ -165,7 +164,7 @@ To enhance the model's ability to capture persistent spatial relationships indep
 
 Unlike standard GAT layers that rely solely on attention scores derived from node features, these learnable bias matrices can capture enduring spatial relationships that remain relatively stable over time (e.g., major transportation corridors, healthcare referral patterns).
 
-The multi-head attention mechanism allows different heads to specialise in capturing distinct types of spatial relationships. Each head $h$ produces its own attention matrix $\mathbf{A}_{h}$. Rather than simple averaging, we employ learnable fusion weights for combining these attention patterns:
+The multi-head attention mechanism allows different heads to specialise in capturing distinct types of spatial relationships. Each head $h$ produces its own attention matrix $\mathbf{A}_h$. Rather than simple averaging, we employ learnable fusion weights for combining these attention patterns:
 
 \begin{equation}
 \mathbf{A}_{\text{final}} = \sum_{h=1}^H \beta_h \mathbf{A}_h, \quad \boldsymbol{\beta} = \text{softmax}(\mathbf{v})
@@ -248,8 +247,6 @@ For adaptive historical blending that responds to the current context, we introd
 \begin{equation}
 \gamma_t = \text{MLP}_{\gamma}([\mathbf{F}_t, \mathbf{X}_{\text{last}}])
 \end{equation}
-
-where $[\cdot,\cdot]$ indicates feature concatenation, and $\text{MLP}_{\gamma}$ is a neural network that learns to determine the optimal blending ratio based on both the current learned features $\mathbf{F}_t$ and the last observation $\mathbf{X}_{\text{last}}$.
 
 We implement an uncertainty-aware gating mechanism that implicitly models prediction confidence:
 
@@ -607,29 +604,43 @@ The ablation results also reveal interesting interaction effects between compone
     \centering
     \caption{Model Efficiency and Resource Usage Comparison}
     \label{tab:efficiency}
-    \begin{tabular}{lccc}
+    \begin{tabular}{@{}lrrr@{}}
     \toprule
-    \textbf{Model} & \textbf{Parameters} & \textbf{Train Time} & \textbf{Inference} \\
+    \textbf{Model} & \textbf{Parameters} & \textbf{Train Time/Epoch} & \textbf{Inference Time} \\
     \midrule
-    LSTM & 520K & 4.8s & 89ms \\
-    ST-GCN & 485K & 4.2s & 76ms \\
-    Cola-GNN & 392K & 3.7s & 68ms \\
-    SAIFlu-Net & 356K & 3.5s & 62ms \\
+    LSTM & 105K & 1.8s & 35ms \\
+    ST-GCN & 198K & 2.1s & 42ms \\
     EpiGNN & 312K & 3.1s & 58ms \\
-    \textbf{MAGAT-FN} & \textbf{128K} & \textbf{2.3s} & \textbf{45ms} \\
+    Cola-GNN & 285K & 2.8s & 51ms \\
+    MAGAT-FN (Ours) & 458K & 3.5s & 65ms \\
     \bottomrule
     \end{tabular}
 \end{table}
 
-Beyond prediction accuracy, computational efficiency represents a crucial consideration for real-world deployment in healthcare systems. Table~\ref{tab:efficiency} presents a comparative analysis of model efficiency metrics across multiple dimensions.
+Beyond prediction accuracy, computational efficiency represents an important consideration for real-world deployment in healthcare systems. Table~\ref{tab:efficiency} presents a comparative analysis of model efficiency metrics across multiple dimensions.
 
-Our MAGAT-FN architecture achieves remarkable parameter efficiency, requiring only 128K parameters—approximately 59\% fewer than EpiGNN (the next most efficient model) and 75\% fewer than LSTM models. This substantial reduction in model size is achieved through strategic architectural choices, including: (1) leveraging multi-head attention to maximise representational power with minimal parameters, (2) employing dilated convolutions to expand receptive fields efficiently, and (3) implementing shared parameters across temporal scales. This parameter efficiency translates to significantly reduced memory requirements, enabling deployment on resource-constrained devices common in healthcare facilities.
+Our MAGAT-FN architecture employs a more complex parameter structure, utilizing 458K parameters—approximately 46\% more than EpiGNN and 77\% more than basic LSTM models. This increased model size reflects our architectural choices focused on capturing sophisticated spatiotemporal patterns through multi-head attention mechanisms, dilated convolutions, and multi-scale temporal analysis. While this results in a larger memory footprint, we believe the improved prediction accuracy justifies the additional computational overhead for scenarios where prediction quality is paramount.
 
-Training efficiency shows similar improvements, with MAGAT-FN requiring only 2.3 seconds per epoch—representing a 25.8\% reduction compared to EpiGNN and a substantial 52.1\% reduction compared to LSTM. This acceleration stems from our streamlined attention mechanism and the elimination of recurrent computations, which typically create bottlenecks in training throughput. The practical implication is that model retraining—often necessary as epidemiological patterns evolve—becomes substantially more feasible in time-sensitive scenarios.
+Training efficiency shows proportional impact, with MAGAT-FN requiring 3.5 seconds per epoch—representing a 12.9\% increase compared to EpiGNN and a 94.4\% increase compared to LSTM. This increased training time stems from our comprehensive attention mechanism and multi-scale temporal processing, which create additional computational demands during the training phase. However, given that model training or retraining is typically an offline process, we consider this an acceptable tradeoff for the significantly improved prediction accuracy our model achieves.
 
-Perhaps most critically for real-time healthcare applications, MAGAT-FN achieves an average inference time of 45ms, enabling near-instantaneous predictions that support timely decision-making. This represents a 22.4\% improvement over EpiGNN and a 49.4\% improvement over LSTM. The sub-50ms latency is particularly significant for interactive dashboard applications in healthcare command centres, where responsiveness directly impacts decision-making capabilities during crisis situations.
+For real-time applications, MAGAT-FN achieves an average inference time of 65ms. While this represents a 12.1\% increase over EpiGNN and an 85.7\% increase over LSTM, it remains well within acceptable limits for most healthcare decision-making scenarios, where sub-100ms latency is typically sufficient. The increased latency is primarily due to:
 
-It is worth noting that MAGAT-FN's efficiency advantages do not compromise its expressive power or predictive accuracy. Rather, they stem from principled architectural design decisions that prioritise computational efficiency alongside prediction performance. The combination of superior accuracy (as demonstrated in Table~\ref{tab:overall_results}) with leading computational efficiency establishes MAGAT-FN as particularly well-suited for practical healthcare applications where both performance and resource constraints must be balanced.
+1. Multi-head attention computations across spatial nodes
+2. Parallel processing of multiple temporal scales
+3. Progressive refinement iterations
+
+It's worth emphasizing that while MAGAT-FN has higher computational requirements than simpler baseline models, this trade-off is deliberate and aligned with our primary goal of maximizing prediction accuracy for critical healthcare applications. The model's superior predictive performance (as demonstrated in Table~\ref{tab:overall_results}) justifies these additional computational costs in scenarios where accurate forecasting directly impacts healthcare resource planning and patient outcomes.
+
+For deployment considerations, we recommend:
+
+\begin{itemize}
+    \item Using GPU acceleration (NVIDIA RTX 2080 Ti or better) for optimal performance
+    \item Batch processing for multiple predictions when possible
+    \item Implementing model quantization techniques for reduced memory usage if needed
+    \item Considering CPU-only deployments only for smaller geographical regions or longer update intervals
+\end{itemize}
+
+These recommendations ensure that despite its increased computational requirements, MAGAT-FN remains practical for real-world healthcare applications where prediction accuracy is the primary concern.
 
 \subsection{Visualization Analysis}
 
@@ -718,17 +729,19 @@ Detailed analysis of MAGAT-FN's predictive performance as an early warning syste
 \end{itemize}
 
 \subsubsection{Deployment Considerations}
-Our architecture offers several practical advantages that facilitate real-world deployment in resource-constrained healthcare environments:
+Our architecture requires careful consideration of computational resources for effective real-world deployment:
 
 \begin{itemize}
-    \item \textbf{Hardware Requirements:} The model's computational efficiency enables effective operation on modest computing infrastructure, with successful deployment demonstrated on single GPU workstations (NVIDIA RTX 3060) and even high-end CPU-only configurations. This represents a significant advantage over competing models that require multi-GPU servers for comparable performance.
+    \item \textbf{Hardware Requirements:} The model requires substantial computational resources, with optimal performance achieved on workstations with NVIDIA RTX 3090 or better GPUs. While the model can run on less powerful hardware, this may impact inference speed and batch processing capabilities.
     
     \item \textbf{Integration Architecture:} We have developed a comprehensive REST API interface that facilitates seamless integration with existing healthcare information systems. This includes standardised data ingestion protocols, batch prediction endpoints, and uncertainty quantification outputs in formats compatible with common healthcare dashboarding tools.
     
     \item \textbf{Monitoring Framework:} To ensure continued model reliability, we implement automated performance monitoring dashboards with drift detection algorithms that alert when prediction patterns deviate significantly from training distributions. This infrastructure supports continual learning and identifies when model retraining might be necessary due to evolving epidemiological conditions.
     
-    \item \textbf{Privacy Preservation:} The model architecture is compatible with federated learning approaches, enabling collaborative model improvement across healthcare institutions without centralising sensitive patient data. Preliminary experiments show only a 3.2\% performance degradation under privacy-preserving federated learning compared to centralised training.
+    \item \textbf{Privacy Preservation:} The model architecture is compatible with federated learning approaches, enabling collaborative model improvement across healthcare institutions without centralising sensitive patient data, though this may require additional computational overhead at each participating site.
 \end{itemize}
+
+These deployment considerations highlight the importance of proper infrastructure planning to support MAGAT-FN's sophisticated modeling capabilities.
 
 These deployment considerations directly address practical barriers to adoption that have historically limited the real-world impact of sophisticated forecasting models in healthcare settings.
 
@@ -777,7 +790,6 @@ The key theoretical and practical contributions of our approach include:
     \item A sophisticated dynamic spatial relationship learning framework through learnable adjacency biases and attention regularisation that captures evolving transmission patterns without relying on static geographical constraints
     \item An efficient multi-scale temporal pattern extraction mechanism with adaptive fusion weights that effectively balances short-term fluctuations and long-term trends crucial for epidemic forecasting
     \item A robust progressive refinement mechanism that substantially mitigates error accumulation in multi-horizon forecasting through adaptive blending of historical observations and model predictions
-    \item A lightweight architectural design that achieves superior performance with significantly reduced computational requirements, enabling practical deployment in resource-constrained healthcare environments
 \end{itemize}
 
 Our extensive experiments across multiple real-world epidemiological datasets demonstrate that MAGAT-FN consistently outperforms state-of-the-art baseline approaches across various forecasting horizons and geographical contexts. The model's particular strength in short- to medium-term predictions (3-5 days) directly addresses the most critical window for tactical healthcare resource management decisions during ongoing public health crises.

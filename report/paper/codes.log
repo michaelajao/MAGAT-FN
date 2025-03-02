@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  2 MAR 2025 02:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  2 MAR 2025 04:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -787,6 +787,10 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6.60007> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 51.
 
+Underfull \hbox (badness 2689) in paragraph at lines 53--55
+[]\T1/ptm/b/it/9 Abstract\T1/ptm/b/n/9 ---Accurate spa-tiotem-po-ral fore-cast-ing of dis-ease
+ []
+
 
 LaTeX Warning: Citation `compartmental_model' on page 1 undefined on input line 64.
 
@@ -796,12 +800,12 @@ LaTeX Warning: Citation `gnn_survey' on page 1 undefined on input line 64.
 
 LaTeX Warning: Citation `attention_mechanisms' on page 1 undefined on input line 64.
 
+
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 
-
-
-Underfull \hbox (badness 5175) in paragraph at lines 80--81
+Underfull \hbox (badness 5175) in paragraph at lines 79--80
 []\T1/ptm/b/n/10 Progressive Pre-dic-tion and Re-fine-ment Mod-ule
  []
 
@@ -811,73 +815,69 @@ Underfull \hbox (badness 5175) in paragraph at lines 80--81
 
 
 ]
-Underfull \hbox (badness 1590) in paragraph at lines 90--91
+Underfull \hbox (badness 1590) in paragraph at lines 89--90
 []\T1/ptm/m/n/10 Rigorous em-pir-i-cal eval-u-a-tion on di-verse real-world
  []
 
 
-Underfull \hbox (badness 1502) in paragraph at lines 90--91
+Underfull \hbox (badness 1502) in paragraph at lines 89--90
 \T1/ptm/m/n/10 datasets demon-strat-ing the model's ef-fec-tive-ness for
  []
 
 
-LaTeX Warning: Citation `compartmentalmodel' on page 2 undefined on input line 97.
+LaTeX Warning: Citation `compartmentalmodel' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Citation `sirbasedmodel' on page 2 undefined on input line 97.
+LaTeX Warning: Citation `sirbasedmodel' on page 2 undefined on input line 96.
 
 
-LaTeX Warning: Citation `lstm' on page 2 undefined on input line 99.
+LaTeX Warning: Citation `lstm' on page 2 undefined on input line 98.
 
 
-LaTeX Warning: Citation `gnn_survey' on page 2 undefined on input line 101.
+LaTeX Warning: Citation `gnn_survey' on page 2 undefined on input line 100.
 
 
-LaTeX Warning: Citation `gcn' on page 2 undefined on input line 101.
+LaTeX Warning: Citation `gcn' on page 2 undefined on input line 100.
 
 
-LaTeX Warning: Citation `attention_mechanisms' on page 2 undefined on input line 101.
+LaTeX Warning: Citation `attention_mechanisms' on page 2 undefined on input line 100.
 
 
-LaTeX Warning: Citation `gat' on page 2 undefined on input line 101.
+LaTeX Warning: Citation `gat' on page 2 undefined on input line 100.
 
 
-LaTeX Warning: Citation `stgcn' on page 2 undefined on input line 103.
+LaTeX Warning: Citation `stgcn' on page 2 undefined on input line 102.
 
 
-LaTeX Warning: Citation `dcrnn' on page 2 undefined on input line 103.
+LaTeX Warning: Citation `dcrnn' on page 2 undefined on input line 102.
 
 
-LaTeX Warning: Citation `cola_gnn' on page 2 undefined on input line 103.
+LaTeX Warning: Citation `cola_gnn' on page 2 undefined on input line 102.
 
 
-LaTeX Warning: Citation `saiflu_net' on page 2 undefined on input line 103.
+LaTeX Warning: Citation `saiflu_net' on page 2 undefined on input line 102.
 
 
-LaTeX Warning: Citation `astgcn' on page 2 undefined on input line 105.
+LaTeX Warning: Citation `astgcn' on page 2 undefined on input line 104.
 
 
-LaTeX Warning: Citation `progressive_forecasting' on page 2 undefined on input line 105.
+LaTeX Warning: Citation `progressive_forecasting' on page 2 undefined on input line 104.
 
 
-LaTeX Warning: Citation `adaptive_graph' on page 2 undefined on input line 105.
+LaTeX Warning: Citation `adaptive_graph' on page 2 undefined on input line 104.
 
 
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 109--110
+Underfull \hbox (badness 1975) in paragraph at lines 108--109
 []\T1/ptm/m/n/10 Our pro-posed MAGAT-FN ad-dresses these lim-i-ta-tions
  []
 
 
 
 [2]
-Underfull \hbox (badness 1622) in paragraph at lines 141--142
-[]\T1/ptm/m/n/10 Following nor-mal-i-sa-tion, the data pro-ceeds through a
- []
 
-
-LaTeX Warning: Citation `gat' on page 3 undefined on input line 150.
+LaTeX Warning: Citation `gat' on page 3 undefined on input line 149.
 
 
 
@@ -888,18 +888,18 @@ LaTeX Warning: Citation `gat' on page 3 undefined on input line 150.
 
 
 [4]
-Underfull \hbox (badness 1400) in paragraph at lines 309--310
+Underfull \hbox (badness 1400) in paragraph at lines 306--307
 []\T1/ptm/m/n/10 We im-ple-ment MAGAT-FN us-ing Py-Torch 1.8.0 with
  []
 
 
-LaTeX Warning: Reference `alg:training' on page 5 undefined on input line 312.
+LaTeX Warning: Reference `alg:training' on page 5 undefined on input line 309.
 
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 315.
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 312.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 360.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 357.
 (C:\Users\ajaoo\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -907,24 +907,24 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 [5]
-Underfull \hbox (badness 5908) in paragraph at lines 403--404
+Underfull \hbox (badness 5908) in paragraph at lines 400--401
  \T1/ptm/m/it/10 3) Regional-COVID Dataset: [][][] \T1/ptm/m/n/10 This dataset com-prises
  []
 
 
 
 
-Underfull \hbox (badness 3525) in paragraph at lines 427--428
+Underfull \hbox (badness 3525) in paragraph at lines 424--425
 []\T1/ptm/b/n/10 Multi-Horizon Anal-y-sis: \T1/ptm/m/n/10 Per-for-mance is eval-u-ated
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 431--432
+Underfull \hbox (badness 3989) in paragraph at lines 428--429
 []\T1/ptm/b/n/10 Computational Ef-fi-ciency: \T1/ptm/m/n/10 We mea-sure pa-ram-e-ter
  []
 
 
-Underfull \hbox (badness 1430) in paragraph at lines 440--441
+Underfull \hbox (badness 1430) in paragraph at lines 437--438
 []\T1/ptm/b/n/10 Training Mon-i-tor-ing: \T1/ptm/m/n/10 We em-ploy Ten-sor-Board for
  []
 
@@ -934,59 +934,56 @@ Underfull \hbox (badness 1430) in paragraph at lines 440--441
 <../figures/forecast_japan.w-20.h-5.png, id=117, 722.7pt x 433.62pt>
 File: ../figures/forecast_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/forecast_japan.w-20.h-5.png>
-Package pdftex.def Info: ../figures/forecast_japan.w-20.h-5.png  used on input line 484.
+Package pdftex.def Info: ../figures/forecast_japan.w-20.h-5.png  used on input line 481.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
 <../figures/matrices_japan.w-20.h-5.png, id=119, 1300.86pt x 433.62pt>
 File: ../figures/matrices_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/matrices_japan.w-20.h-5.png>
-Package pdftex.def Info: ../figures/matrices_japan.w-20.h-5.png  used on input line 491.
+Package pdftex.def Info: ../figures/matrices_japan.w-20.h-5.png  used on input line 488.
 (pdftex.def)             Requested size: 516.0pt x 172.00253pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figures/loss_curve_japan.w-20.h-5.png, id=120, 578.16pt x 361.35pt>
+<../figures/loss_curve_japan.w-20.h-5.png, id=120, 714.0276pt x 424.7067pt>
 File: ../figures/loss_curve_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/loss_curve_japan.w-20.h-5.png>
-Package pdftex.def Info: ../figures/loss_curve_japan.w-20.h-5.png  used on input line 498.
-(pdftex.def)             Requested size: 252.0pt x 157.50026pt.
+Package pdftex.def Info: ../figures/loss_curve_japan.w-20.h-5.png  used on input line 495.
+(pdftex.def)             Requested size: 252.0pt x 149.88733pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
+LaTeX Warning: Reference `tab:overall_results' on page 7 undefined on input line 548.
 
 
-LaTeX Warning: Reference `tab:overall_results' on page 7 undefined on input line 551.
 
 
-LaTeX Warning: Reference `tab:ablation' on page 7 undefined on input line 594.
+LaTeX Warning: Reference `tab:ablation' on page 7 undefined on input line 591.
 
 
 
 [7 <../figures/forecast_japan.w-20.h-5.png>]
+Underfull \vbox (badness 3449) has occurred while \output is active []
 
 
-Underfull \vbox (badness 3907) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [8 <../figures/matrices_japan.w-20.h-5.png> <../figures/loss_curve_japan.w-20.h-5.png>]
-
-LaTeX Warning: Reference `tab:efficiency' on page 9 undefined on input line 624.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
-[]\T1/ptm/m/n/10 Training ef-fi-ciency shows sim-i-lar im-prove-ments,
+Overfull \hbox (3.93423pt too wide) in paragraph at lines 607--618
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
-\T1/ptm/m/n/10 with MAGAT-FN re-quir-ing only 2.3 sec-onds per
- []
+LaTeX Warning: Reference `tab:efficiency' on page 9 undefined on input line 620.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 628--629
-\T1/ptm/m/n/10 epoch^^Vrepresenting a 25.8% re-duc-tion com-pared to
+Underfull \hbox (badness 6188) in paragraph at lines 624--625
+[]\T1/ptm/m/n/10 Training ef-fi-ciency shows pro-por-tional im-pact, with
  []
 
 
@@ -995,26 +992,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 628--629
 LaTeX Warning: Reference `tab:overall_results' on page 9 undefined on input line 632.
 
 
-LaTeX Warning: Reference `fig:attention_vis' on page 9 undefined on input line 637.
+LaTeX Warning: Reference `fig:attention_vis' on page 9 undefined on input line 648.
 
 
 
 [9]
 
-LaTeX Warning: Reference `fig:forecast_japan' on page 10 undefined on input line 650.
+LaTeX Warning: Reference `fig:forecast_japan' on page 10 undefined on input line 661.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 660--661
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
 []\T1/ptm/m/n/10 These vi-su-al-i-sa-tion char-ac-ter-is-tics demon-strate that
  []
 
 
-Underfull \hbox (badness 2035) in paragraph at lines 660--661
+Underfull \hbox (badness 2035) in paragraph at lines 671--672
 \T1/ptm/m/n/10 MAGAT-FN not only pro-duces ac-cu-rate point fore-casts
  []
 
 
-LaTeX Warning: Reference `fig:training_curves' on page 10 undefined on input line 663.
+LaTeX Warning: Reference `fig:training_curves' on page 10 undefined on input line 674.
 
 
 
@@ -1025,19 +1022,19 @@ LaTeX Warning: Reference `fig:training_curves' on page 10 undefined on input lin
 
 
 [11]
-Underfull \hbox (badness 2318) in paragraph at lines 754--755
+Underfull \hbox (badness 2318) in paragraph at lines 767--768
 []\T1/ptm/m/n/10 Under vary-ing sam-pling fre-quen-cies, MAGAT-FN
  []
 
 
-c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex:761: LaTeX Error: Unicode character σ (U+03C3)
+c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex:774: LaTeX Error: Unicode character σ (U+03C3)
                not set up for use with LaTeX.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.761 ...tly identifying case growth exceeding 2σ
+l.774 ...tly identifying case growth exceeding 2σ
                                                    within ±2 days) compared...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1048,7 +1045,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-Underfull \hbox (badness 5939) in paragraph at lines 789--790
+Underfull \hbox (badness 5939) in paragraph at lines 801--802
 \T1/ptm/m/n/10 vanced in-ter-pretabil-ity tech-niques be-yond at-ten-tion
  []
 
@@ -1084,13 +1081,13 @@ Package rerunfilecheck Info: Checksums for `codes.out':
 Here is how much of TeX's memory you used:
  26359 strings out of 473682
  512597 string characters out of 5719215
- 932153 words of memory out of 5000000
+ 931153 words of memory out of 5000000
  48861 multiletter control sequences out of 15000+600000
  701354 words of font info for 212 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
- 84i,17n,93p,1369b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,17n,93p,1843b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on codes.pdf (13 pages, 852243 bytes).
+Output written on codes.pdf (13 pages, 960991 bytes).
 PDF statistics:
  255 PDF objects out of 1000 (max. 8388607)
  113 named destinations out of 1000 (max. 500000)

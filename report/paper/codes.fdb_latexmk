@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex codes"] 0 "codes.aux" "codes.bbl" "codes" 0 -1
+["bibtex codes"] 1741032653.28753 "codes.aux" "codes.bbl" "codes" 1741033900.25419 2
   "./references.bib" 1740934955 3085 ad5149231c89f05232409ab38fb2163e ""
   "C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440618969 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "codes.aux" 1740963966 8959 5b3088e3822ede6c1119609aa9c1cc89 "pdflatex"
+  "codes.aux" 1741033899 8959 5b3088e3822ede6c1119609aa9c1cc89 "pdflatex"
   (generated)
   "codes.bbl"
   "codes.blg"
   (rewritten before read)
-["pdflatex"] 1740963962.62654 "c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex" "codes.pdf" "codes" 1740963967.76661 2
-  "../figures/GNN-architecture.pdf" 1740963900 595309 f8355fd1957b987cf41c852376adffa3 ""
+["pdflatex"] 1741033895.12296 "c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex" "codes.pdf" "codes" 1741033900.25533 2
+  "../figures/GNN-architecture.pdf" 1741033545 598400 e1a16f58e52b52356699699d947d2c18 ""
   "../figures/forecast_japan.w-20.h-5.png" 1740881498 186367 33164455549aa1c3f631ac6f4bd37ccf ""
   "../figures/loss_curve_japan.w-20.h-5.png" 1740883582 331884 b217c5205bf74f709bc12d8c3a1985b9 ""
   "../figures/matrices_japan.w-20.h-5.png" 1740883583 184680 d5ed022501b17955468b4813ced385a0 ""
@@ -214,11 +214,11 @@
   "C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1730400552 14552 27664839421e418b87f56fa4c6f66b1a ""
   "C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729261622 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex" 1740963963 76382 d4cc07cbb857afc4801b233d4954c0ef ""
-  "codes.aux" 1740963966 8959 5b3088e3822ede6c1119609aa9c1cc89 "pdflatex"
-  "codes.bbl" 1740963353 0 d41d8cd98f00b204e9800998ecf8427e "bibtex codes"
-  "codes.out" 1740963966 7359 876a458be7bf353a05742aac6b6c86b4 "pdflatex"
-  "codes.tex" 1740963963 76382 d4cc07cbb857afc4801b233d4954c0ef ""
+  "c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex" 1741033887 75666 4782c5b85adb438a46e5582a19c58ec1 ""
+  "codes.aux" 1741033899 8959 5b3088e3822ede6c1119609aa9c1cc89 "pdflatex"
+  "codes.bbl" 1741032653 0 d41d8cd98f00b204e9800998ecf8427e "bibtex codes"
+  "codes.out" 1741033899 7359 876a458be7bf353a05742aac6b6c86b4 "pdflatex"
+  "codes.tex" 1741033887 75666 4782c5b85adb438a46e5582a19c58ec1 ""
   (generated)
   "codes.aux"
   "codes.log"

@@ -58,24 +58,49 @@
 \newlabel{tab:overall_results}{{I}{8}{Performance metrics across different datasets and methods. Results show RMSE and PCC for each forecast horizon}{table.caption.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule.}}{8}{figure.caption.4}\protected@file@percent }
 \newlabel{fig:training_curves}{{4}{8}{Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule}{figure.caption.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Impact of Component Removal on Model Performance}}{9}{table.caption.6}\protected@file@percent }
-\newlabel{tab:ablation}{{II}{9}{Impact of Component Removal on Model Performance}{table.caption.6}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Ablation Study Analysis}{9}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Computational Efficiency}{9}{subsection.5.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Model Efficiency and Resource Usage Comparison}}{9}{table.caption.7}\protected@file@percent }
-\newlabel{tab:efficiency}{{III}{9}{Model Efficiency and Resource Usage Comparison}{table.caption.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Visualization Analysis}{10}{subsection.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}1}Attention Pattern Analysis}{10}{subsubsection.5.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}2}Prediction Uncertainty Visualisation}{10}{subsubsection.5.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}3}Training Dynamics}{10}{subsubsection.5.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}4}Regional Performance Analysis}{11}{subsubsection.5.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Real-World Impact Analysis}{11}{subsection.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}1}Healthcare Resource Optimisation}{11}{subsubsection.5.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}2}Early Warning System Performance}{11}{subsubsection.5.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}3}Deployment Considerations}{11}{subsubsection.5.5.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Comparative Model Analysis}{12}{subsection.5.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-F}1}Performance by Data Characteristics}{12}{subsubsection.5.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion and Future Work}{12}{section.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Heatmap visualization showing the percentage change in performance metrics when removing individual components for 5-day forecasts. Negative values (red) indicate performance degradation, while positive values (green) indicate performance improvement compared to the full model.}}{9}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:ablation_impact}{{5}{9}{Heatmap visualization showing the percentage change in performance metrics when removing individual components for 5-day forecasts. Negative values (red) indicate performance degradation, while positive values (green) indicate performance improvement compared to the full model}{figure.caption.7}{}}
+\newlabel{fig:ablation_rmse}{{6a}{9}{Subfigure 6a}{subfigure.6.1}{}}
+\newlabel{sub@fig:ablation_rmse}{{(a)}{a}{Subfigure 6a\relax }{subfigure.6.1}{}}
+\newlabel{fig:ablation_mae}{{6b}{9}{Subfigure 6b}{subfigure.6.2}{}}
+\newlabel{sub@fig:ablation_mae}{{(b)}{b}{Subfigure 6b\relax }{subfigure.6.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Performance comparison of different model variants (full model vs. ablation variants) on error metrics for 5-day forecasts. Lower values indicate better performance.}}{9}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:ablation_error_metrics}{{6}{9}{Performance comparison of different model variants (full model vs. ablation variants) on error metrics for 5-day forecasts. Lower values indicate better performance}{figure.caption.8}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {RMSE comparison across model variants}}}{9}{subfigure.6.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {MAE comparison across model variants}}}{9}{subfigure.6.2}\protected@file@percent }
+\newlabel{fig:ablation_pcc}{{7a}{9}{Subfigure 7a}{subfigure.7.1}{}}
+\newlabel{sub@fig:ablation_pcc}{{(a)}{a}{Subfigure 7a\relax }{subfigure.7.1}{}}
+\newlabel{fig:ablation_r2}{{7b}{9}{Subfigure 7b}{subfigure.7.2}{}}
+\newlabel{sub@fig:ablation_r2}{{(b)}{b}{Subfigure 7b\relax }{subfigure.7.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Performance comparison of different model variants on correlation metrics for 5-day forecasts. Higher values indicate better performance.}}{9}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:ablation_correlation_metrics}{{7}{9}{Performance comparison of different model variants on correlation metrics for 5-day forecasts. Higher values indicate better performance}{figure.caption.9}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {PCC comparison across model variants}}}{9}{subfigure.7.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {R² comparison across model variants}}}{9}{subfigure.7.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Impact of Component Removal on Model Performance for the Japan-COVID Dataset}}{10}{table.caption.6}\protected@file@percent }
+\newlabel{tab:ablation}{{II}{10}{Impact of Component Removal on Model Performance for the Japan-COVID Dataset}{table.caption.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Relative contribution of each architectural component to overall model performance for the 5-day forecast horizon, measured by the percentage performance degradation when the component is removed.}}{10}{figure.caption.10}\protected@file@percent }
+\newlabel{fig:component_importance}{{8}{10}{Relative contribution of each architectural component to overall model performance for the 5-day forecast horizon, measured by the percentage performance degradation when the component is removed}{figure.caption.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Computational Efficiency}{10}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Model Efficiency and Resource Usage Comparison}}{10}{table.caption.12}\protected@file@percent }
+\newlabel{tab:efficiency}{{III}{10}{Model Efficiency and Resource Usage Comparison}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Comparison of ablation study heatmaps across different forecast horizons, showing the shifting importance of architectural components as prediction difficulty increases.}}{11}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:ablation_horizon_comparison}{{9}{11}{Comparison of ablation study heatmaps across different forecast horizons, showing the shifting importance of architectural components as prediction difficulty increases}{figure.caption.11}{}}
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {3-day forecast horizon}}}{11}{subfigure.9.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {5-day forecast horizon}}}{11}{subfigure.9.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {10-day forecast horizon}}}{11}{subfigure.9.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Visualization Analysis}{11}{subsection.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}1}Attention Pattern Analysis}{11}{subsubsection.5.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}2}Prediction Uncertainty Visualisation}{12}{subsubsection.5.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}3}Training Dynamics}{12}{subsubsection.5.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-D}4}Regional Performance Analysis}{12}{subsubsection.5.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Real-World Impact Analysis}{13}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}1}Healthcare Resource Optimisation}{13}{subsubsection.5.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}2}Early Warning System Performance}{13}{subsubsection.5.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-E}3}Deployment Considerations}{13}{subsubsection.5.5.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Comparative Model Analysis}{14}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-F}1}Performance by Data Characteristics}{14}{subsubsection.5.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion and Future Work}{14}{section.6}\protected@file@percent }
 \bibstyle{IEEEtran}
 \bibdata{references}
 \bibcite{compartmentalmodel}{1}
@@ -84,5 +109,5 @@
 \bibcite{sirbasedmodel}{4}
 \bibcite{cola_gnn}{5}
 \bibcite{saiflu_net}{6}
-\@writefile{toc}{\contentsline {section}{References}{13}{section*.8}\protected@file@percent }
-\gdef \@abspage@last{13}
+\@writefile{toc}{\contentsline {section}{References}{15}{section*.13}\protected@file@percent }
+\gdef \@abspage@last{15}

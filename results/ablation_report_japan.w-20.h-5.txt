@@ -1,0 +1,45 @@
+MAGAT-FN Ablation Study Report
+==============================
+
+Dataset: japan
+Window Size: 20
+Forecast Horizon: 5
+
+Performance Metrics by Model Variant
+-----------------------------------
+
+               MAE         RMSE       PCC        R2
+none     350.03223  1080.507404  0.884585  0.722741
+no_agam  378.89413  1145.346181  0.860668  0.688467
+no_mtfm  382.18414  1132.698106  0.855169  0.695310
+no_pprm  369.09058  1104.716932  0.875042  0.710177
+
+Percentage Change from Full Model
+--------------------------------
+
+         MAE_change  RMSE_change  PCC_change  R2_change
+none       0.000000     0.000000    0.000000   0.000000
+no_agam    8.245498     6.000771   -2.703700  -4.742196
+no_mtfm    9.185414     4.830203   -3.325358  -3.795444
+no_pprm    5.444741     2.240570   -1.078856  -1.738320
+
+Component Importance Analysis
+----------------------------
+
+1. Adaptive Graph Attention Module (AGAM): Learns dynamic spatial relationships between regions
+   Impact when removed: 6.00% RMSE degradation
+
+2. Multi-scale Temporal Fusion Module (MTFM): Processes temporal patterns at different scales
+   Impact when removed: 4.83% RMSE degradation
+
+3. Progressive Prediction and Refinement Module (PPRM): Mitigates error accumulation in forecasts
+   Impact when removed: 2.24% RMSE degradation
+
+Conclusion
+----------
+
+The ablation study demonstrates that the AGAM component contributes most significantly to model performance, with its removal resulting in a 6.00% degradation in RMSE.
+
+While all components contribute positively to the model's predictive capability, the PPRM component shows the least individual impact with a 2.24% RMSE degradation when removed.
+
+The full MAGAT-FN model with all components intact demonstrates superior performance across all metrics, confirming the value of the complete architecture design.

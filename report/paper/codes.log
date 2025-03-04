@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  3 MAR 2025 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.26)  3 MAR 2025 22:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -713,7 +713,7 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [lettersize].
 
-No file codes.aux.
+(codes.aux)
 \openout1 = `codes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -734,6 +734,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
+
 -- Lines per column: 58 (exact).
 (C:\Users\ajaoo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -759,6 +760,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 49.
+ (codes.out) (codes.out)
 \@outlinefile=\write4
 \openout4 = `codes.out'.
 
@@ -791,15 +793,6 @@ Underfull \hbox (badness 2689) in paragraph at lines 53--55
  []
 
 
-LaTeX Warning: Citation `compartmentalmodel' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `gnn_survey' on page 1 undefined on input line 65.
-
-
-LaTeX Warning: Citation `attention_mechanisms' on page 1 undefined on input line 65.
-
-
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 70.
@@ -824,22 +817,10 @@ Underfull \hbox (badness 1502) in paragraph at lines 90--91
  []
 
 
-LaTeX Warning: Citation `compartmentalmodel' on page 2 undefined on input line 97.
-
-
-LaTeX Warning: Citation `sirbasedmodel' on page 2 undefined on input line 97.
-
-
 LaTeX Warning: Citation `lstm' on page 2 undefined on input line 99.
 
 
-LaTeX Warning: Citation `gnn_survey' on page 2 undefined on input line 101.
-
-
 LaTeX Warning: Citation `gcn' on page 2 undefined on input line 101.
-
-
-LaTeX Warning: Citation `attention_mechanisms' on page 2 undefined on input line 101.
 
 
 LaTeX Warning: Citation `gat' on page 2 undefined on input line 101.
@@ -849,12 +830,6 @@ LaTeX Warning: Citation `stgcn' on page 2 undefined on input line 103.
 
 
 LaTeX Warning: Citation `dcrnn' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Citation `cola_gnn' on page 2 undefined on input line 103.
-
-
-LaTeX Warning: Citation `saiflu_net' on page 2 undefined on input line 103.
 
 
 LaTeX Warning: Citation `astgcn' on page 2 undefined on input line 105.
@@ -877,7 +852,7 @@ Underfull \hbox (badness 1975) in paragraph at lines 109--110
 [2]
 
 pdfTeX warning: pdflatex (file ../figures/GNN-architecture.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/GNN-architecture.pdf, id=24, 1304.95526pt x 548.0475pt>
+<../figures/GNN-architecture.pdf, id=191, 1304.95526pt x 548.0475pt>
 File: ../figures/GNN-architecture.pdf Graphic file (type pdf)
 <use ../figures/GNN-architecture.pdf>
 Package pdftex.def Info: ../figures/GNN-architecture.pdf  used on input line 133.
@@ -899,9 +874,6 @@ LaTeX Warning: Citation `gat' on page 3 undefined on input line 158.
 Underfull \hbox (badness 1400) in paragraph at lines 315--316
 []\T1/ptm/m/n/10 We im-ple-ment MAGAT-FN us-ing Py-Torch 1.8.0 with
  []
-
-
-LaTeX Warning: Reference `alg:training' on page 5 undefined on input line 318.
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 321.
 
@@ -941,39 +913,27 @@ Underfull \hbox (badness 1430) in paragraph at lines 446--447
 
 
 
-<../figures/forecast_japan.w-20.h-5.png, id=138, 722.7pt x 433.62pt>
+<../figures/forecast_japan.w-20.h-5.png, id=292, 722.7pt x 433.62pt>
 File: ../figures/forecast_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/forecast_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/forecast_japan.w-20.h-5.png  used on input line 490.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
-<../figures/matrices_japan.w-20.h-5.png, id=140, 1300.86pt x 433.62pt>
+<../figures/matrices_japan.w-20.h-5.png, id=294, 1300.86pt x 433.62pt>
 File: ../figures/matrices_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/matrices_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/matrices_japan.w-20.h-5.png  used on input line 497.
 (pdftex.def)             Requested size: 516.0pt x 172.00253pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../figures/loss_curve_japan.w-20.h-5.png, id=141, 714.0276pt x 424.7067pt>
+<../figures/loss_curve_japan.w-20.h-5.png, id=295, 714.0276pt x 424.7067pt>
 File: ../figures/loss_curve_japan.w-20.h-5.png Graphic file (type png)
 <use ../figures/loss_curve_japan.w-20.h-5.png>
 Package pdftex.def Info: ../figures/loss_curve_japan.w-20.h-5.png  used on input line 504.
 (pdftex.def)             Requested size: 252.0pt x 149.88733pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `tab:overall_results' on page 7 undefined on input line 557.
-
 
 
 [7 <../figures/forecast_japan.w-20.h-5.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-
-LaTeX Warning: Reference `tab:ablation' on page 8 undefined on input line 600.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -988,26 +948,13 @@ Overfull \hbox (3.93423pt too wide) in paragraph at lines 616--627
  []
 
 
-LaTeX Warning: Reference `tab:efficiency' on page 9 undefined on input line 629.
-
-
 Underfull \hbox (badness 6188) in paragraph at lines 633--634
 []\T1/ptm/m/n/10 Training ef-fi-ciency shows pro-por-tional im-pact, with
  []
 
 
-LaTeX Warning: Reference `tab:overall_results' on page 9 undefined on input line 641.
-
-
 
 [9]
-
-LaTeX Warning: Reference `fig:attention_vis' on page 10 undefined on input line 657.
-
-
-LaTeX Warning: Reference `fig:forecast_japan' on page 10 undefined on input line 670.
-
-
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 680--681
@@ -1018,9 +965,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 680--681
 Underfull \hbox (badness 2035) in paragraph at lines 680--681
 \T1/ptm/m/n/10 MAGAT-FN not only pro-duces ac-cu-rate point fore-casts
  []
-
-
-LaTeX Warning: Reference `fig:training_curves' on page 10 undefined on input line 683.
 
 
 
@@ -1036,32 +980,17 @@ Underfull \hbox (badness 2318) in paragraph at lines 776--777
  []
 
 
-c:/Users/ajaoo/Desktop/Projects/MAGAT-FN/report/paper/codes.tex:783: LaTeX Error: Unicode character σ (U+03C3)
-               not set up for use with LaTeX.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.783 ...tly identifying case growth exceeding 2σ
-                                                   within ±2 days) compared...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
 
 [12]
 Underfull \hbox (badness 5939) in paragraph at lines 810--811
 \T1/ptm/m/n/10 vanced in-ter-pretabil-ity tech-niques be-yond at-ten-tion
  []
 
-(codes.bbl)
+(codes.bbl
 
+)
 
-
-[13
-
-] (codes.aux)
+[13] (codes.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -1070,30 +999,21 @@ L3 programming layer <2024-11-02>
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `codes.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `codes.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  876A458BE7BF353A05742AAC6B6C86B4;7359.
+Package rerunfilecheck Info: File `codes.out' has not changed.
+(rerunfilecheck)             Checksum: A07EFEEE30EDA49F24778FD8DF1AC213;7454.
  ) 
 Here is how much of TeX's memory you used:
- 26364 strings out of 473682
- 512805 string characters out of 5719215
- 928163 words of memory out of 5000000
- 48867 multiletter control sequences out of 15000+600000
- 701354 words of font info for 212 fonts, out of 8000000 for 9000
+ 26427 strings out of 473682
+ 514061 string characters out of 5719215
+ 929309 words of memory out of 5000000
+ 48916 multiletter control sequences out of 15000+600000
+ 702490 words of font info for 213 fonts, out of 8000000 for 9000
  1145 hyphenation exceptions out of 8191
  84i,17n,93p,1843b,731s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/ajaoo/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on codes.pdf (13 pages, 2723972 bytes).
+Output written on codes.pdf (13 pages, 2744950 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 

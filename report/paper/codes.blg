@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: codes.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: references.bib
+Warning--I didn't find a database entry for "lstm"
+Warning--I didn't find a database entry for "gcn"
+Warning--I didn't find a database entry for "gat"
+Warning--I didn't find a database entry for "stgcn"
+Warning--I didn't find a database entry for "dcrnn"
+Warning--I didn't find a database entry for "astgcn"
+Warning--I didn't find a database entry for "progressive_forecasting"
+Warning--I didn't find a database entry for "adaptive_graph"
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+
+Done.
+You've used 6 entries,
+            4087 wiz_defined-function locations,
+            870 strings with 8962 characters,
+and the built_in function-call counts, 5604 in all, are:
+= -- 444
+> -- 186
+< -- 46
++ -- 99
+- -- 37
+* -- 288
+:= -- 811
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 99
+cite$ -- 6
+duplicate$ -- 392
+empty$ -- 385
+format.name$ -- 43
+if$ -- 1290
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 74
+newline$ -- 41
+num.names$ -- 6
+pop$ -- 169
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 423
+stack$ -- 0
+substring$ -- 252
+swap$ -- 343
+text.length$ -- 13
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 6
+warning$ -- 0
+while$ -- 23
+width$ -- 7
+write$ -- 83
+(There were 8 warnings)

@@ -485,21 +485,21 @@ We evaluate model performance using multiple complementary metrics:
 \subsubsection{Visualization Framework}
 Our comprehensive visualization framework generates:
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\columnwidth]{../figures/forecast_japan.w-20.h-5.png}
     \caption{Forecast visualization for Japan-COVID dataset showing model predictions (red) against ground truth (blue) with 95\% confidence intervals (shaded).}
     \label{fig:forecast_japan}
 \end{figure}
 
-\begin{figure*}[h]
+\begin{figure*}[htbp]
     \centering
     \includegraphics[width=\textwidth]{../figures/matrices_japan.w-20.h-5.png}
     \caption{Learned attention patterns: (a) Physical adjacency matrix, (b) Input correlation matrix, (c) Learned attention weights showing dynamic spatial relationships.}
     \label{fig:attention_vis}
 \end{figure*}
 
-\begin{figure}[h]
+\begin{figure}[htbp]
     \centering
     \includegraphics[width=\columnwidth]{../figures/loss_curve_japan.w-20.h-5.png}
     \caption{Training dynamics showing convergence behavior: training loss, validation metrics, and learning rate schedule.}
@@ -778,9 +778,9 @@ To thoroughly understand the relative advantages of MAGAT-FN across different da
         \item Long-range dependencies (correlations spanning >14 days) are captured with 37\% higher fidelity compared to baseline models, as measured by wavelet coherence analysis between predictions and ground truth at different temporal scales.
     \end{itemize}
     
-    \item \textbf{Event Detection Precision:}
+        \item \textbf{Event Detection Precision:}
     \begin{itemize}
-        \item MAGAT-FN achieves a 92\% outbreak detection rate (correctly identifying case growth exceeding 2σ within ±2 days) compared to 84\% for EpiGNN and 79\% for traditional surveillance methods. This translates directly to earlier public health interventions and more effective resource allocation during critical phases.
+        \item MAGAT-FN achieves a 92\% outbreak detection rate (correctly identifying case growth exceeding 2$\sigma$ within $\pm$2 days) compared to 84\% for EpiGNN and 79\% for traditional surveillance methods. This translates directly to earlier public health interventions and more effective resource allocation during critical phases.
         
         \item The model provides 2.1 days earlier warning (average) for significant events compared to baseline methods, with particularly strong performance (3.2 days advantage) for spatially clustered outbreaks that leverage the model's graph attention capabilities.
         
